@@ -30,7 +30,7 @@
  	 	},
  	 	"print": {
  	 	 	"name": {
- 	 	 	 	"trans": "인쇄 랭크",
+ 	 	 	 	"trans": "인쇄 기술",
  	 	 	 	"eng": "printing rank"
  	 	 	}
  	 	},
@@ -42,7 +42,7 @@
  	 	},
  	 	"ammo": {
  	 	 	"name": {
- 	 	 	 	"trans": "탄약 제조",
+ 	 	 	 	"trans": "탄약 제조 기술",
  	 	 	 	"eng": "ammo crafting"
  	 	 	}
  	 	},
@@ -54,7 +54,7 @@
  	 	},
  	 	"mining": {
  	 	 	"name": {
- 	 	 	 	"trans": "채굴 능력",
+ 	 	 	 	"trans": "채굴 기술",
  	 	 	 	"eng": "mining skill"
  	 	 	}
  	 	}
@@ -105,7 +105,7 @@
  	 	 	},
  	 	 	"toGang": {
  	 	 	 	"name": {
- 	 	 	 	 	"trans": "갱단에 가자",
+ 	 	 	 	 	"trans": "갱단 본부로 이동하기",
  	 	 	 	 	"eng": "Go to gang headquarters"
  	 	 	 	}
  	 	 	}
@@ -116,7 +116,7 @@
  	 	 	 	"eng": "Shangri-La Commercial Area"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "[일자리 중심지]\r\n        수많은 기업과 매장들은 당신의 능력을 시험하기에 완벽한 곳입니다.",
+ 	 	 	 	"trans": "[직업 허브]\r\n        이곳에는 많은 기업과 매장이 위치해있습니다. 당신의 기술을 갈고 닦을 완벽한 .",
  	 	 	 	"eng": "[Job Hub]\r\n        Here are many shops and businesses reside. The perfect location to hone and refine your skills."
  	 	 	},
  	 	 	"toMainHub": {
@@ -199,7 +199,7 @@
  	 	"segment": {
  	 	 	"locked": {
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "이전 역의 세 개의 던전에서 각기 다른 열쇠조각 3개를 모으고, \r\n                    [단말기]에서 잠긴 영역을 해제할 키를 제작합니다.",
+ 	 	 	 	 	"trans": "이전 역의 세 개의 던전에서 각기 다른 열쇠조각 3개를 모으고, \r\n                    [도심부]에서 [단말기]로 이동해 무차별 대입 공격을 이용한 암호 해제로 새로운 영역을 개방할 키를 제작합니다.",
  	 	 	 	 	"eng": "Gather all 3 different Key Fragments from Dungeons in each 3 zones in previous station, \r\n                    then go to [Terminal] at City Center [Hub] to brute-force (Craft) the key required to unlock this area"
  	 	 	 	}
  	 	 	},
@@ -212,7 +212,7 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"segmentStationName"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "여기에서 1 레벨 적과 전투를 계속하세요.",
+ 	 	 	 	 	"trans": "여기에서 레벨 1 적과 전투를 계속하세요.",
  	 	 	 	 	"eng": "Continue here to fight level 1 enemy"
  	 	 	 	},
  	 	 	 	"description": {
@@ -248,15 +248,15 @@
  	 	},
  	 	"gang": {
  	 	 	"name": {
- 	 	 	 	"trans": "갱단 본부",
+ 	 	 	 	"trans": "갱 본부" 
  	 	 	 	"eng": "Gang Headquarters"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "[한 떼] \r\n         귀하와 귀하의 갱 회원들이 다음 조작을 계획하고 실행하기위한 본사",
+ 	 	 	 	"trans": "[갱] \r\n         당신과 당신의 갱이 다음 활동을 계획하고 실행하기위한 본사",
  	 	 	 	"eng": "[Gang]\r\n        The headquarters for you and your gang members to plan and execute your next operation"
  	 	 	},
  	 	 	"cantEnterError": {
- 	 	 	 	"trans": "이 영역에 들어가기 위해 이득에 가입해야합니다",
+ 	 	 	 	"trans": "이 영역에 들어가기 위해 갱에 가입해야합니다.",
  	 	 	 	"eng": "You need to join a gang to enter this area"
  	 	 	}
  	 	}
@@ -264,15 +264,15 @@
  	"npc": {
  	 	"unitExchange": {
  	 	 	"name": {
- 	 	 	 	"trans": "아라사카 유닛 교환소",
+ 	 	 	 	"trans": "아라사카 환전소",
  	 	 	 	"eng": "Arasaka Unit Exchange"
  	 	 	},
  	 	 	"tut": {
- 	 	 	 	"trans": "여기서 버프 아이템을 구입할 수 있습니다.",
+ 	 	 	 	"trans": "이곳에서 버프 아이템을 구입할 수 있습니다.",
  	 	 	 	"eng": "You can purchase global buff items here"
  	 	 	},
  	 	 	"canAccessError": {
- 	 	 	 	"trans": "단위 교환에 액세스하려면 최소한 레벨 5가 필요합니다",
+ 	 	 	 	"trans": "환전은 레벨 5부터 가능합니다.",
  	 	 	 	"eng": "You need to be at least level 5 to access unit exchange"
  	 	 	}
  	 	},
@@ -286,7 +286,7 @@
  	 	 	 	"eng": "If you liked the game, please consider donation :)"
  	 	 	},
  	 	 	"canAccessError": {
- 	 	 	 	"trans": "화장품 상인에 액세스하려면 적어도 레벨 5가 필요합니다",
+ 	 	 	 	"trans": "화장품 상인과 접촉은 레벨 5부터 가능합니다.",
  	 	 	 	"eng": "You need to be at least level 5 to access cosmetic merchant"
  	 	 	}
  	 	},
@@ -296,7 +296,7 @@
  	 	 	 	"eng": "Molecular 3d Printer"
  	 	 	},
  	 	 	"tut": {
- 	 	 	 	"trans": "여기서 캐시를 사용하여 새 장비를 인쇄할 수 있습니다.",
+ 	 	 	 	"trans": "여기서 캐시를 사용하여 새 장비를 프린트할 수 있습니다.",
  	 	 	 	"eng": "You can use your Cache to print new equipment here"
  	 	 	}
  	 	},
@@ -312,15 +312,15 @@
  	 	 	 	"eng": "Terminal"
  	 	 	},
  	 	 	"tut": {
- 	 	 	 	"trans": "잠긴 영역으로 이동하려면 던전에서 열쇠조각을 모으고, \r\n        단말기을 이용해서 열쇠를 제작해야 합니다.",
+ 	 	 	 	"trans": "다음 영역으로 이동하려면 던전에서 열쇠 조각을 모으고, \r\n        단말기를 통한 무차별 대입 공격으로 열쇠를 제작해야 합니다.",
  	 	 	 	"eng": "To progress to the next area, you need to use get Secret Key Fragments from dungeons, \r\n        and use the Terminal to Brute Force the key for next area"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "당신의 개인 컴퓨터는 좀 오래된 감이 있지만, 조금의 인내심만 있다면 작업을 완수할 수 있습니다",
+ 	 	 	 	"trans": "당신의 개인 컴퓨터는 좀 오래된 감이 있지만, 인내심만 충분하다면 작업을 완수할 수 있습니다",
  	 	 	 	"eng": "Your personal computer, although it's a little outdated, it can get the job done with enough patience"
  	 	 	},
  	 	 	"canAccessError": {
- 	 	 	 	"trans": "터미널에 액세스하려면 적어도 레벨 5가 필요합니다",
+ 	 	 	 	"trans": "단말기는 레벨 5부터 사용 가능합니다.",
  	 	 	 	"eng": "You need to be at least level 5 to access terminal"
  	 	 	}
  	 	},
@@ -336,7 +336,7 @@
  	 	 	 	"eng": "Bank of Arasaka"
  	 	 	},
  	 	 	"canAccessError": {
- 	 	 	 	"trans": "은행에 접속할 수있는 최소 5 레벨이 필요합니다",
+ 	 	 	 	"trans": "은행은 레벨 5부터 이용 가능합니다.",
  	 	 	 	"eng": "You need to be at least level 5 to access bank"
  	 	 	}
  	 	},
@@ -346,31 +346,31 @@
  	 	 	 	"eng": "Calibration Station"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "필요한 도구가있는 워크 벤치를 사용하면 장비로 팅킹을 즐길 수 있습니다.",
+ 	 	 	 	"trans": "필요한 도구가 있는 작업대를 사용하면 장비를 손볼 수 있습니다.",
  	 	 	 	"eng": "A workbench with the necessary tools allows you to tinker with your equipment."
  	 	 	}
  	 	},
  	 	"storageMerchant": {
  	 	 	"name": {
- 	 	 	 	"trans": "리의 무역 게시물",
+ 	 	 	 	"trans": "리의 교역소",
  	 	 	 	"eng": "Lee's Trading Post"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "가족은 그들이 발견 한 것과 함께 거래 할 수있는 무역 가게를 운영합니다",
+ 	 	 	 	"trans": "리의 가족은 그들이 탐색중 발견한 것을 당신이 구매할 수 있는 교역소를 운영합니다.",
  	 	 	 	"eng": "A family run trading shop that lets you trade with what they have found while scavenging"
  	 	 	},
  	 	 	"canAccessError": {
- 	 	 	 	"trans": "Merchant에 액세스하려면 적어도 레벨 10 이상이 필요합니다",
+ 	 	 	 	"trans": "상인과 접촉은 레벨 10부터 가능합니다",
  	 	 	 	"eng": "You need to be at least level 10 to access merchant"
  	 	 	}
  	 	},
  	 	"recycleMachine": {
  	 	 	"name": {
- 	 	 	 	"trans": "자동 재활용품",
+ 	 	 	 	"trans": "자동 재활용 기계",
  	 	 	 	"eng": "Automatic Recycler"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "완전 자동화 된 재활용 자, 기본 스크랩 양식으로 항목을 재활용 할 수 있습니다",
+ 	 	 	 	"trans": "완전히 자동화 된 재활용 기계로, 아이템을 그들의 기본 조각 형태로 재활용할 수 있습니다. ",
  	 	 	 	"eng": "Fully automated recycler, capable of recycling items to their basic scrap form"
  	 	 	}
  	 	}
@@ -378,11 +378,11 @@
  	"action": {
  	 	"increasePrint": {
  	 	 	"name": {
- 	 	 	 	"trans": "인쇄소 작업",
+ 	 	 	 	"trans": "인쇄소에서 일하기",
  	 	 	 	"eng": "work in printing factory"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "폐기 장비를 소모하지 않고 인쇄 랭크를 향상시키는 식으로, 인쇄 레벨을 높이는 데 이 작업이 도움이 될 겁니다.",
+ 	 	 	 	"trans": "기술 조각을 소모하지 않고 인쇄 기술을 향상시킬 수 있습니다.",
  	 	 	 	"eng": "Improve Printing Rank without sacrificing tech scrap, this may help to increase the level of your prints."
  	 	 	}
  	 	},
@@ -392,51 +392,51 @@
  	 	 	 	"eng": "Hack a Body Mod Clinic"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "바디모드 클리닉에서 유용한 데이터를 다운로드하여 높은 품질의 의료 로봇과 드론을 제작합니다.",
+ 	 	 	 	"trans": "바디모드 클리닉에서 더 높은 품질의 의료 로봇과 드론을 제작하기 위해 유용한 데이터를 다운로드하십시오.",
  	 	 	 	"eng": "Download useful data from a local body mod clinic to craft higher quality medical bots and drones."
  	 	 	}
  	 	},
  	 	"increaseAmmo": {
  	 	 	"name": {
- 	 	 	 	"trans": "탄약 개선",
+ 	 	 	 	"trans": "탄약 개선하기",
  	 	 	 	"eng": "Improve Ammunition"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "탄약을 손보며 더 효과적인 제조 방법 찾습니다.",
+ 	 	 	 	"trans": "더 효과적인 제조 방법을 찾기 위해 탄약을 손봅니다.",
  	 	 	 	"eng": "Tinker with ammunition, to find more effective ways of crafting it."
  	 	 	}
  	 	},
  	 	"reverseEngineer": {
  	 	 	"name": {
- 	 	 	 	"trans": "공학 조각 역변환",
+ 	 	 	 	"trans": "공학 조각 역변환하기",
  	 	 	 	"eng": "Reverse Engineer Scraps"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "인쇄 랭크를 올리기 위해 공학 조각을 역변환하십시오. \r\n        공학 조각을 희생해야 할 것입니다.",
+ 	 	 	 	"trans": "인쇄 기술을 향상시키기 위해 공학 조각을 역변환하십시오. \r\n        공학 조각이 소모됩니다.",
  	 	 	 	"eng": "Reverse engineer tech scrap to improve your Print Rank. \r\n        You’ll need to sacrifice some of your tech scrap."
  	 	 	}
  	 	},
  	 	"reverseMining": {
  	 	 	"name": {
- 	 	 	 	"trans": "암호 화폐 채굴 시작",
+ 	 	 	 	"trans": "암호 화폐 채굴 시작하기",
  	 	 	 	"eng": "initiate crypto mining"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "암호 화폐를 채굴하면 비트코인을 벌 수 있으나, 해시 프로세서(QPU로 알려져있는 양자 처리 장치)를 사용할 때 과다하게 사용하는 바람에 자주 타버립니다.",
+ 	 	 	 	"trans": "암호 화폐를 채굴하면 비트코인을 벌 수 있으나, 해시 프로세서(QPU로 불리는 양자 처리 장치)를 과도하게 사용하는 바람에 자주 고장납니다.",
  	 	 	 	"eng": "Engaging in crypto mining will earn you Bitcoins, however due to the intense use of the Hash Processors, the Quantum Processing Unit, otherwise known as the QPU, will often burn out."
  	 	 	}
  	 	},
  	 	"autoFarm": {
  	 	 	"name": {
- 	 	 	 	"trans": "파밍 봇 전개",
+ 	 	 	 	"trans": "파밍 봇 배치하기",
  	 	 	 	"eng": "Deploy farm bot"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "[AFK 경험치 파밍]\r\n        AI를 던전에 전개합니다. AI Core를 사용할 것이며, 보통 한 번 갔다오는 데 한 개를 사용합니다.",
+ 	 	 	 	"trans": "[비접속 경험치 모으기]\r\n        당신을 위해 AI를 던전에 배치합니다. AI 코어를 소모하며, 한 번의 탐사에 한 개의 AI 코어를 사용합니다.",
  	 	 	 	"eng": "[AFK Exp Farm]\r\n        Deploys an AI to dungeon for you. This will use up an AI Core, they usually only just manage the one trip."
  	 	 	},
  	 	 	"tut": {
- 	 	 	 	"trans": "접속하지 않는 동안 AI Core을 이용하여 적들을 자동 사냥할 수 있습니다.",
+ 	 	 	 	"trans": "접속하지 않는 동안 AI 코어를 이용하여 적들을 자동 사냥할 수 있습니다.",
  	 	 	 	"eng": "You can use your AI Core to Auto-Farm enemies while you AFK"
  	 	 	}
  	 	},
@@ -452,67 +452,67 @@
  	 	 	 	"vars": [
  	 	 	 	 	"zoneName"
  	 	 	 	],
- 	 	 	 	"trans": "[AFK 자원 수집]\r\n                    ${zoneName}에서 탐색하며 유용한 아이템들을 찾아보세요.\r\n                    운이 좋을 지도 모르잖아요!",
+ 	 	 	 	"trans": "[비접속 자원 수집]\r\n                    ${zoneName}에서 탐색하며 유용한 아이템들을 찾아보세요.\r\n                    운이 좋을 지도 모르잖아요!",
  	 	 	 	"eng": "[AFK Resource Gather]\r\n                    Search around in ${zoneName} and scavenge for useful items.\r\n                    Who knows, maybe you'll get lucky!"
  	 	 	}
  	 	},
  	 	"clanResource": {
  	 	 	"name": {
- 	 	 	 	"trans": "Gather Clan Resource",
+ 	 	 	 	"trans": "갱 자원 모으기",
  	 	 	 	"eng": "Gather Gang Resource"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Help gather and manage needed resources for your clan",
+ 	 	 	 	"trans": "당신의 갱을 위해 필요한 자원을 모으고 관리하는 것을 도우세요.",
  	 	 	 	"eng": "Help gather and manage needed resources for your gang"
  	 	 	}
  	 	},
  	 	"clanDecryptShard": {
  	 	 	"name": {
- 	 	 	 	"trans": "메모리 샤드를 해독하십시오",
+ 	 	 	 	"trans": "메모리 파편을 해독하십시오",
  	 	 	 	"eng": "Decrypt memory shard"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "유용한 인텔을 검색하는 것을 찾은 메모리 샤드를 해독하십시오",
+ 	 	 	 	"trans": "유용한 정보를 되찾기 위해 메모리 파편을 해독합니다.",
  	 	 	 	"eng": "Decrypt a memory shard to retrieve useful intel."
  	 	 	}
  	 	},
  	 	"clanOccupation": {
  	 	 	"name": {
- 	 	 	 	"trans": "Shangri-La에서 직업 강화",
+ 	 	 	 	"trans": "샹그릴라 지배권 강화하기",
  	 	 	 	"eng": "Reinforce occupation at Shangri-la"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Shangri-la시의 더 큰 통제를 강화하고 확립하는 데 도움이됩니다.",
+ 	 	 	 	"trans": "샹그릴라의 지배권을 강화하고 확립하는 데 동조합니다.",
  	 	 	 	"eng": "Help reinforce and establish greater control of Shangri-la city."
  	 	 	}
  	 	},
  	 	"gambling1": {
  	 	 	"name": {
- 	 	 	 	"trans": "Mega Pachinko 게임을하십시오",
+ 	 	 	 	"trans": "메가 파칭코 게임하기",
  	 	 	 	"eng": "Play MEGA Pachinko Game"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Konnichiwa!! ^___^\r\n        Come play the MEGA Pachinko! With chance to win HUGE EPIC rewards\r\n        only 10000 btc per session, LIMITED TIME OFFER!!! <3<3<3\r\n        ##Special thanks for Militech for sponsoring this event##",
+ 	 	 	 	"trans": "こんにちは!! ^___^\r\n        ★메가 파칭코★ 엄청난 ☞에픽☜ 상품 대기중!  \r\n         ♡지금 당장♡ 한 판에 겨우 5000 btc!!! <3<3<3\r\n        ##협찬해 주신 Militech에 특별한 감사를 드립니다##",
  	 	 	 	"eng": "Konnichiwa!! ^___^\r\n        Come play the MEGA Pachinko! With chance to win HUGE EPIC rewards\r\n        only 5000 btc per session, LIMITED TIME OFFER!!! <3<3<3\r\n        ##Special thanks for Militech for sponsoring this event##"
  	 	 	}
  	 	},
  	 	"topClanExclusive": {
  	 	 	"name": {
- 	 	 	 	"trans": "보호 수수료 수집",
+ 	 	 	 	"trans": "보호료 징수하기",
  	 	 	 	"eng": "Collect Protection Fees"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "뇌물 정부 공무원과 SLPD를 뇌물로 보내고 Shangri-Lah의 비즈니스 주인과 시민으로부터 보호 수수료를 수집하십시오. 어쩌면 당신은 그들에게서 서사적 인 아이템을 얻을 수 있습니까? (상위 2 갱 독점)",
+ 	 	 	 	"trans": "정부 공무원과 SLPD에게 뇌물을 보내고 샹그릴라의 업주들과 시민으로부터 보호 수수료를 징수하십시오. 어쩌면 그들에게서 에픽 아이템을 얻을 수 있을지도? (리더보드 상위 2개의 갱에게만 해당)",
  	 	 	 	"eng": "Bribe government officials and the SLPD to collect protection fees from business owners and citizens in Shangri-La. Maybe you’ll get some EPIC items from them? (Exclusive to the Top 2 Gangs on the Occupation Leaderboard"
  	 	 	}
  	 	},
  	 	"globalQuest": {
  	 	 	"name": {
- 	 	 	 	"trans": "해킹 SL 데이터 요새",
+ 	 	 	 	"trans": "SL 데이터 요새 해킹하기",
  	 	 	 	"eng": "Hack SL Data Fortress"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Shangri-La 데이터 요새를 타겟팅하는 사이버 공간에서 공동 공격을 시작하십시오. \r\n         공격이 데이터 요새가 모든 Cybernetically Connected 사용자에게 이용을 전송할 수 있도록 성공할 수있는 경우",
+ 	 	 	 	"trans": "샹그릴라 데이터 요새를 목표로 사이버 공간에서 협동 공격을 시작하십시오. \r\n         공격이 성공한다면, 데이터 요새가 사이버망으로 연결된 모든 사용자에게 악용 정보를 전송하도록 강요하는 것이 가능해집니다.",
  	 	 	 	"eng": "Launch a collaborative attack in cyberspace targeting the Shangri-La Data Fortress.\r\nIf the attack succeeds, it’s possible to force the Data Fortress to transmit exploits to all cybernetically connected users."
  	 	 	}
  	 	}
@@ -523,7 +523,7 @@
  	 	 	 	"amount",
  	 	 	 	"itemName"
  	 	 	],
- 	 	 	"trans": "${itemName}을 ${amount}개 획득했습니다.",
+ 	 	 	"trans": "${itemName}을(를) ${amount}개 획득했습니다.",
  	 	 	"eng": "You received ${amount} ${itemName}"
  	 	}
  	},
@@ -560,7 +560,7 @@
  	 	},
  	 	"epic": {
  	 	 	"name": {
- 	 	 	 	"trans": "신화의",
+ 	 	 	 	"trans": "에픽",
  	 	 	 	"eng": "epic"
  	 	 	}
  	 	}
@@ -595,7 +595,7 @@
  	 	 	 	"vars": [
  	 	 	 	 	"segmentDisplayName"
  	 	 	 	],
- 	 	 	 	"trans": "비밀 열쇠를 무차별 대입으로 얻기 위한 열쇠 조각.\r\n                                도심지의 [단말기]를 사용하여 ${segmentDisplayName} 비밀 열쇠를 무차별 대입으로 얻을 수 있습니다.\r\n                                You can acquire each of the 3 required keys in each dungeon (both normal or challenge),\r\n                                when you acquired 3 keys, you may use Terminal to brute-force (Craft) a key to the next area",
+ 	 	 	 	"trans": "열쇠를 무차별 대입 공격으로 얻기 위한 열쇠 조각.\r\n                                도심지의 [단말기]를 사용하여 ${segmentDisplayName} 열쇠를 무차별 대입 공격으로 얻을 수 있습니다.\r\n                                3개의 열쇠 조각을 각각의 던전(보통/도전 난이도 모두)에서 얻을 수 있고,\r\n                                3개의 열쇠 조각을 얻으면, 단말기를 사용하여 무차별 대입 공격을 통해 다음 영역으로 갈 수 있는 열쇠를 제작할 수 있습니다."
  	 	 	 	"eng": "A secret key Fragment used to brute-force a secret key.\r\n                                Use the Terminal at city center [Hub] to brute-force a ${segmentDisplayName} secret key.\r\n                                You can acquire each of the 3 required keys in each dungeon (both normal or challenge),\r\n                                when you acquired 3 keys, you may use Terminal to brute-force (Craft) a key to the next area"
  	 	 	}
  	 	},
@@ -605,14 +605,14 @@
  	 	 	 	 	"tierName",
  	 	 	 	 	"typeName"
  	 	 	 	],
- 	 	 	 	"trans": "${tierName} ${typeName} 메모리",
+ 	 	 	 	"trans": "${tierName} ${typeName} 캐시",
  	 	 	 	"eng": "${tierName} ${typeName} cache"
  	 	 	},
  	 	 	"description": {
  	 	 	 	"vars": [
  	 	 	 	 	"typeName"
  	 	 	 	],
- 	 	 	 	"trans": "${typeName} 메모리는 분자 3D 프린팅에 관한 정보가 들어있습니다, \r\n                    [도심지]의 [분자 3D 프린터]에서 ${typeName}를 만들 수 있습니다.\r\n                    \r\n                    팁: 인쇄 랭크에 의해 실제 아이템의 레벨이 결정되므로,\r\n                    항상 조잡함 등급의 아이템을 먼저 인쇄하는 게 좋습니다. 인쇄 랭크를 올리는 데 도움이 되고 싸기 때문입니다.",
+ 	 	 	 	"trans": "${typeName} 캐시는 분자 3D 프린팅에 사용되는 정보를 담고 있습니다, \r\n                    [도심지]의 [분자 3D 프린터]에서 ${typeName}를 만들 수 있습니다.\r\n                    \r\n                    팁: 인쇄 레벨에 의해 프린트 되는 아이템의 레벨이 결정되므로,\r\n                    항상 조잡함 등급의 아이템을 먼저 프린트하는 게 좋습니다. 인쇄 기술을 향상시키는 데에 유용하고 저렴하기 때문입니다.",
  	 	 	 	"eng": "A ${typeName} cache contains information used for Molecular 3D Printing, \r\n                    You can create a ${typeName} with the [Molecular 3d Printer] at [Central Hub].\r\n                    \r\n                    Pro tip: The level of item you get from printing is determined by your Printing Rank,\r\n                    so always print the trash ones first, as they cost less and useful to level up your Printing Rank"
  	 	 	}
  	 	},
@@ -624,13 +624,13 @@
  	 	},
  	 	"upperArmor": {
  	 	 	"name": {
- 	 	 	 	"trans": "상체 갑옷",
+ 	 	 	 	"trans": "상체 방호구",
  	 	 	 	"eng": "upper armor"
  	 	 	}
  	 	},
  	 	"lowerArmor": {
  	 	 	"name": {
- 	 	 	 	"trans": "하체 갑옷",
+ 	 	 	 	"trans": "하체 방호구",
  	 	 	 	"eng": "lower armor"
  	 	 	}
  	 	},
@@ -642,17 +642,17 @@
  	 	},
  	 	"upgradeModule": {
  	 	 	"name": {
- 	 	 	 	"trans": "강화 칩",
+ 	 	 	 	"trans": "업그레이드 모듈",
  	 	 	 	"eng": "upgrade module"
  	 	 	}
  	 	},
  	 	"healing1": {
  	 	 	"name": {
- 	 	 	 	"trans": "고통 킬러",
+ 	 	 	 	"trans": "통증 킬러",
  	 	 	 	"eng": "Pain Away"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "두통이 있나요? 고통 킬러™로 통증을 완화해보세요!",
+ 	 	 	 	"trans": "두통이 있나요? 통증 킬러™로 통증을 완화해보세요!",
  	 	 	 	"eng": "Do you have headache? Use Pain Away™ to relieve your pain!"
  	 	 	}
  	 	},
@@ -672,7 +672,7 @@
  	 	 	 	"eng": "Degraded Nano Medic Bot"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "낡은 나노 의료 로봇으로, 어떤 상처(약관 참조)든 주입하면 치료됩니다!",
+ 	 	 	 	"trans": "낡은 나노 의료 로봇으로, 어떤 상처(약관 참조)든 치료할 수 있습니다!",
  	 	 	 	"eng": "Old nano medic bot is used to cure any (*conditions apply) injury!"
  	 	 	}
  	 	},
@@ -682,7 +682,7 @@
  	 	 	 	"eng": "Nano Medic Bot"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "어떤 상처(약관 참조)든 주입하면 치료됩니다!",
+ 	 	 	 	"trans": "어떤 상처(약관 참조)든 치료할 수 있습니다!",
  	 	 	 	"eng": "Inject it to cure any(*conditions apply) injury!"
  	 	 	}
  	 	},
@@ -692,7 +692,7 @@
  	 	 	 	"eng": "Military Nano Medic Bot"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "주입형 나노 기계로 군용으로 자주 사용되며, 전투 중 상처를 봉합하는 데 효과가 있습니다.",
+ 	 	 	 	"trans": "군용으로 보급되는 주입형 나노 머신로, 전투 중에 상처를 치료할 수 있습니다.",
  	 	 	 	"eng": "Injectable nano machines that are standard issue for military use. They are capable of patching injuries while in combat."
  	 	 	}
  	 	},
@@ -702,37 +702,37 @@
  	 	 	 	"eng": "Advanced Nano Medic Bot"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "군대에서 사용되는 주입형 나노 기계로, 전투 중 상처를 봉합하는 데 효과가 있습니다.",
+ 	 	 	 	"trans": "군용으로 보급되는 주입형 나노 머신으로, 전투 중에 상처를 치료할 수 있습니다.",
  	 	 	 	"eng": "Injectable nano machines that are standard issue for military use. They're capable of patching injuries while in combat."
  	 	 	}
  	 	},
  	 	"healing7": {
  	 	 	"name": {
- 	 	 	 	"trans": "양질 나노 의료 로봇",
+ 	 	 	 	"trans": "양질의 나노 의료 로봇",
  	 	 	 	"eng": "High Quality Nano Medic Bot"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "심화 군용 주입형 나노 기계로, 전투 상황에서 상처를 봉합하는 데 효과가 있습니다.",
+ 	 	 	 	"trans": "군용으로 보급되는 주입형 나노 머신으로, 전투 중에 상처를 치료할 수 있습니다.",
  	 	 	 	"eng": "Injectable nano machines that are standard issue for military use. They're capable of patching injuries while in combat."
  	 	 	}
  	 	},
  	 	"healing8": {
  	 	 	"name": {
- 	 	 	 	"trans": "희귀 나노 의료 로봇",
+ 	 	 	 	"trans": "희귀한 나노 의료 로봇",
  	 	 	 	"eng": "Rare Nano Medic Bot"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "심화 군용 주입형 나노 기계로, 전투 상황에서 상처를 봉합하는 데 효과가 있습니다.",
+ 	 	 	 	"trans": "군용으로 보급되는 주입형 나노 머신으로, 전투 중에 상처를 치료할 수 있습니다.",
  	 	 	 	"eng": "Injectable nano machines that are standard issue for military use. They're capable of patching injuries while in combat."
  	 	 	}
  	 	},
  	 	"healingArea1": {
  	 	 	"name": {
- 	 	 	 	"trans": "고통 킬러 스프레이",
+ 	 	 	 	"trans": "통증 킬러 스프레이",
  	 	 	 	"eng": "Pain Away Spray"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "친구와 함께 두통이 있나요? 고통 킬러 스프레이™로 여러분의 통증을 완화해보세요!",
+ 	 	 	 	"trans": "당신과 친구 모두 두통이 있나요? 통증 킬러 스프레이™로 여러분의 통증을 완화해보세요!",
  	 	 	 	"eng": "Do you and your friends both have headaches? Use Pain Away Spray™ to relief your pain!"
  	 	 	}
  	 	},
@@ -742,7 +742,7 @@
  	 	 	 	"eng": "Degraded Repair drone"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "낡은 수리 드론으로, 주위 플레이어를 수리하거나 치료할 수 있습니다.",
+ 	 	 	 	"trans": "낡은 수리 드론으로, 수리를 하거나 주위 플레이어를 치료할 수 있습니다.",
  	 	 	 	"eng": "Old repair drone, capable of repairing or heal nearby players"
  	 	 	}
  	 	},
@@ -752,7 +752,7 @@
  	 	 	 	"eng": "Degraded nano medic drone"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "낡은 나노 드론으로, 수천 개의 나노 기계로 주위 플레이어를 치료할 수 있습니다.",
+ 	 	 	 	"trans": "낡은 나노 드론으로, 수천 개의 나노 머신을 투입하여 주변 플레이어를 치료할 수 있습니다."
  	 	 	 	"eng": "Old nano drone, capable of dispatching thousands of nano machines to heal nearby players"
  	 	 	}
  	 	},
@@ -762,17 +762,17 @@
  	 	 	 	"eng": "Nano medic drone"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "수천 개의 나노 기계로 주위 플레이어를 치료할 수 있습니다.",
+ 	 	 	 	"trans": "수천 개의 나노 머신을 투입하여 주변 플레이어를 치료할 수 있습니다.",
  	 	 	 	"eng": "capable of dispatching thousands of nano machines to heal nearby players"
  	 	 	}
  	 	},
  	 	"healingArea5": {
  	 	 	"name": {
- 	 	 	 	"trans": "군용 의료 드론",
+ 	 	 	 	"trans": "군용 나노 의료 드론",
  	 	 	 	"eng": "Military Nano medic drone"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "수천 개의 군용 나노 기계로 주위 플레이어를 치료할 수 있습니다.",
+ 	 	 	 	"trans": "수천 개의 군용 나노 머신을 투입하여 주변 플레이어를 치료할 수 있습니다.",
  	 	 	 	"eng": "capable of dispatching thousands of military nano machines to heal nearby players"
  	 	 	}
  	 	},
@@ -782,47 +782,47 @@
  	 	 	 	"eng": "Advance Nano medic drone"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "수천 개의 강화 나노 기계로 주위 플레이어를 치료할 수 있습니다.",
+ 	 	 	 	"trans": "수천 개의 강화된 나노 머신을 투입하여 주변 플레이어를 치료할 수 있습니다.",
  	 	 	 	"eng": "capable of dispatching thousands of advanced nano machines to heal nearby players"
  	 	 	}
  	 	},
  	 	"healingArea7": {
  	 	 	"name": {
- 	 	 	 	"trans": "양질 나노 의료 드론",
+ 	 	 	 	"trans": "양질의 나노 의료 드론",
  	 	 	 	"eng": "High Quality Nano medic drone"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "수천 개의 강화 나노 기계로 주위 플레이어를 치료할 수 있습니다.",
+ 	 	 	 	"trans": "수천 개의 강화된 나노 머신을 투입하여 주변 플레이어를 치료할 수 있습니다.",
  	 	 	 	"eng": "capable of dispatching thousands of advanced nano machines to heal nearby players"
  	 	 	}
  	 	},
  	 	"healingArea8": {
  	 	 	"name": {
- 	 	 	 	"trans": "희귀 나노 의료 드론",
+ 	 	 	 	"trans": "희귀한 나노 의료 드론",
  	 	 	 	"eng": "Rare Nano medic drone"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "수천 개의 강화 나노 기계로 주위 플레이어를 치료할 수 있습니다.",
+ 	 	 	 	"trans": "수천 개의 강화된 나노 머신을 투입하여 주변 플레이어를 치료할 수 있습니다.",
  	 	 	 	"eng": "capable of dispatching thousands of advanced nano machines to heal nearby players"
  	 	 	}
  	 	},
  	 	"medicalTechParts": {
  	 	 	"name": {
- 	 	 	 	"trans": "의료 공학 조각",
+ 	 	 	 	"trans": "의료 기술 조각",
  	 	 	 	"eng": "Medical Tech Parts"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "비트 및 사용 된 의료 기술의 조각, 이것은 어떻게 치유 품목을 만드는 데 사용할 수 있습니다",
+ 	 	 	 	"trans": "중고 의료 기술 조각들. 어떻게 하는지 이해한다면 회복 아이템을 만드는 데 사용될 수 있다.",
  	 	 	 	"eng": "Bits and pieces of used medical tech. This can be used to craft healing items if you understand how"
  	 	 	}
  	 	},
  	 	"expMemory": {
  	 	 	"name": {
- 	 	 	 	"trans": "경험치 조각",
+ 	 	 	 	"trans": "경험 메모리",
  	 	 	 	"eng": "Experience Memory"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "메모리 은행에는 누군가의 기억이 잠들어 있습니다. 이것을 사용하여 경험을 얻을 수 있습니다.",
+ 	 	 	 	"trans": "메모리 뱅크에는 누군가의 기억이 잠들어 있습니다. 이것을 사용한다면 경험을 얻을 수 있습니다.",
  	 	 	 	"eng": "Memory bank contains someone's memory. If used you may gain experience from this"
  	 	 	}
  	 	},
@@ -832,27 +832,27 @@
  	 	 	 	"eng": "Hash Processor"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "비트코인 채굴을 위한 전용 채굴기로 사용할 수 있습니다. \r\n        하지만 오버클러킹을 한다면 채굴기는 금방 고장날 것 입니다. \r\n        [일자리 중심지]에서 비트코인을 채굴해보는건 어떄요?",
+ 	 	 	 	"trans": "비트코인 채굴 전용 채굴기로 사용할 수 있습니다. \r\n        하지만 오버클러킹 때문에 채굴기는 금방 고장납니다. \r\n        [일자리 중심지]에서 비트코인을 채굴하는 데 사용할 수 있습니다."
  	 	 	 	"eng": "Can be used as a dedicated hardware for BitCoin mining, \r\n        however due to overclocking, the processor is easily burntout,\r\n        You may use this to mine BitCoin at [JOB HUB]"
  	 	 	}
  	 	},
  	 	"afkAcceleration": {
  	 	 	"name": {
- 	 	 	 	"trans": "시냅틱 가속 송신기",
+ 	 	 	 	"trans": "시냅스 가속 송신기"
  	 	 	 	"eng": "Synaptic Acceleration Transmitter"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "방송은 모든 Cybernetically Connected 사용자에게 이용되어 시냅스 프로세서를 오버 클럭으로 짧은 시간 동안 슈퍼 인간 정신 능력을 갖추고 있습니다. \r\n        \r\n         사용될 때 모든 플레이어에게 온라인으로 글로벌 버프를 제공하여 AFK 작업을 10 분 동안 5 % 속도로 완성 할 수 있습니다 (쌓을 수 있음)",
+ 	 	 	 	"trans": "브로드 캐스트를 이용하여 사이버 망으로 연결된 모든 사용자에게, 시냅스 프로세서를 오버클럭하여 잠시동안 초인적인 정신 능력을 갖게 합니다.\r\n        \r\n         사용시 접속중인 플레이어들에게 글로벌 버프를 제공하여 비접속 작업을 10 분 동안 5 %  가속된 속도로 완수됩니다. (중첩 가능)"
  	 	 	 	"eng": "Broadcasts exploits to all cybernetically connected users, overclocking their synaptic processors thus allowing super-human mental capacity for short period of time.\r\n        \r\n        When used, gives Global Buff to all players online, allowing them to complete AFK tasks in +5% speed for 10 minutes (stackable)"
  	 	 	}
  	 	},
  	 	"afkAcceleration2": {
  	 	 	"name": {
- 	 	 	 	"trans": "희귀 시냅틱 가속 송신기",
+ 	 	 	 	"trans": "희귀 시냅스 가속 송신기"
  	 	 	 	"eng": "Rare Synaptic Acceleration Transmitter"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "방송은 모든 Cybernetically Connected 사용자에게 이용되어 시냅스 프로세서를 오버 클럭으로 짧은 시간 동안 슈퍼 인간 정신 능력을 갖추고 있습니다. \r\n        \r\n         사용될 때 모든 플레이어에게 온라인으로 글로벌 버프를 제공하여 20 분 동안 + 40 % 속도로 AFK 작업을 완료 할 수 있습니다 (쌓을 수 있음)",
+ 	 	 	 	"trans": "브로드 캐스트를 이용하여 사이버 망으로 연결된 모든 사용자에게, 시냅스 프로세서를 오버클럭하여 잠시동안 초인적인 정신 능력을 갖게 합니다.\r\n        \r\n         사용시 접속중인 플레이어들에게 글로벌 버프를 제공하여 비접속 작업을 20 분 동안 40% 가속된 속도로 완수됩니다. (중첩 가능)"
  	 	 	 	"eng": "Broadcasts exploits to all cybernetically connected users, overclocking their synaptic processors thus allowing super-human mental capacity for short period of time.\r\n        \r\n        When used, gives Global Buff to all players online, allowing them to complete AFK tasks in +40% speed for 20 minutes (stackable)"
  	 	 	}
  	 	},
@@ -862,37 +862,37 @@
  	 	 	 	"eng": "Frontal Cortex Optimization Transmitter"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "모든 Cybernetically 연결된 사용자에게 이용을 방송하고 Cyberwares가 설치된 정면 피질 통합을 향상시켜 사용자의 메모리 기능을 향상시킵니다. \r\n\r\n         사용될 때 모든 플레이어에게 온라인으로 글로벌 버프를 제공하고, Exp가 20 분 동안 180 % 증가했습니다",
+ 	 	 	 	"trans": "브로드 캐스트를 이용하여 사이버 망으로 연결된 모든 사용자에게, 설치된 사이버 웨어로 전두엽 피질 통합 기능을 향상시켜 사용자의 기억 능력을 향상시킵니다. \r\n\r\n         사용시 접속중인 플레이어들에게 글로벌 버프를 제공하여 경험치 획득량이 20분 동안 180% 증가합니다.\r\n        "
  	 	 	 	"eng": "Broadcasts exploits to all cybernetically connected users, enhancing their Frontal Cortex integration with cyberwares installed, thus increasing memory capability of the user.\r\n\r\n        When used, gives Global Buff to all players online, increase EXP gained to 180% for 20 minutes\r\n        "
  	 	 	}
  	 	},
  	 	"btcMultiplier": {
  	 	 	"name": {
- 	 	 	 	"trans": "거래 착취 ",
+ 	 	 	 	"trans": "거래 착취 "
  	 	 	 	"eng": "Transaction Exploit Transmitter"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "방송 모든 Cybernetically 연결된 사용자 인 경우 트랜잭션 알고리즘 임시로 인수하여 사용자가 BONUS ${CONFIG.CURRENCY_NAME}를받을 수 있습니다. \r\n\r\n         사용될 때 온라인으로 모든 플레이어에게 글로벌 버프를 제공하고, Bitcoin이 20 분 동안 40 % 증가합니다 (쌓을 수 있음)",
+ 	 	 	 	"trans": "브로드 캐스트를 이용하여 사이버 망으로 연결된 모든 사용자들의 거래 알고리즘을 일시적으로 인수하여, 사용자가 추가로 ${CONFIG.CURRENCY_NAME}를 받을 수 있습니다. \r\n\r\n         사용시 접속중인 플레이어들에게 글로벌 버프를 제공하여, 비트코인 획등량이 20 분 동안 40 % 증가합니다 (중첩 가능)"
  	 	 	 	"eng": "Broadcasts exploits to all cybernetically connected users, argument their transaction algorithm temporary, allowing user to receive bonus  ${Config.CURRENCY_NAME}.\r\n\r\n        When used, gives Global Buff to all players online, increase BitCoin gained by 40% for 20 minutes (stackable)\r\n        "
  	 	 	}
  	 	},
  	 	"aiCore": {
  	 	 	"name": {
- 	 	 	 	"trans": "당신은 핵심이 있습니다",
+ 	 	 	 	"trans": "AI 코어",
  	 	 	 	"eng": "AI Core"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "상업적으로 사용되는 NPU (Neural Processing Unit). \r\n        범용 AI와 함께 제공되는 NPU를 사용하여 던전 파밍용 봇을 배치할 수 있습니다.",
+ 	 	 	 	"trans": "상업적으로 사용되는 신경 처리 장치(Neural Processing Unit; NPU). 범용 AI가 탑재되어 있다. \r\n        이것을 사용하여 당신을 위한 파밍 봇을 던전에 배치할 수 있습니다."
  	 	 	 	"eng": "Commercially used Neural Processing Unit (NPU). Comes with general purpose AI. \r\n        You can use this to deploy a farming bot to dungeon for you."
  	 	 	}
  	 	},
  	 	"ammo1": {
  	 	 	"name": {
- 	 	 	 	"trans": "에너지 셀",
+ 	 	 	 	"trans": "에너지 전지"
  	 	 	 	"eng": "Energy Cell"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "특수무기의 탄약으로 사용되는 휴대용 에너지 저장장치입니다.",
+ 	 	 	 	"trans": "휴대용 에너지 저장장치로, '특수 무기'의 탄약으로 소모됩니다."
  	 	 	 	"eng": "Portable energy storage device, it can be used as consumable ammo for your Special Weapons"
  	 	 	}
  	 	},
@@ -902,43 +902,43 @@
  	 	 	 	"eng": "Anti Matter Charge"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "아주 작고 한번 밖에 사용할 수 없는 하이테크 반물질 생성기입니다. \r\n        엄청난 양의 에너지를 뿜어내는 이것을 '파괴 무기'의 탄약으로 사용할 수 있습니다.",
+ 	 	 	 	"trans": "첨단 기술의 소형화된 일회용 반물질 에너지 발전기입니다. \r\n        이 아이템은 엄청난 양의 에너지를 제공합니다. 이것을 '살상 무기'의 탄약으로 사용할 수 있습니다."
  	 	 	 	"eng": "High-tech, miniaturized, one-time use, antimatter energy generator. \r\n        This item produces enormous amounts of power. You can use this as ammunition for your destructive weapon. "
  	 	 	}
  	 	},
  	 	"ammoTech1": {
  	 	 	"name": {
- 	 	 	 	"trans": "탄약 공학 조각",
+ 	 	 	 	"trans": "탄약 기술 조각",
  	 	 	 	"eng": "Ammunition tech parts"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "암시장에서 쉽게 찾아볼 수 있는 이것은 탄약 제조에 사용되는 부품입니다. \r\n        만약 당신이 탄약 제조기술을 이해하고있다면 탄약을 만들 수 있겠죠?",
+ 	 	 	 	"trans": "탄약 기술 조각, 암시장에서 흔하게 유통됩니다. \r\n        어떻게 하는지 이해한다면 탄약을 제작하는 데 사용할 수 있습니다."
  	 	 	 	"eng": "Ammunition tech parts, These can be commonly found circulating the black market. \r\n        You can use these to craft ammunition if you understand how."
  	 	 	}
  	 	},
  	 	"ammoTech2": {
  	 	 	"name": {
- 	 	 	 	"trans": "군용 탄약 공학 조각",
+ 	 	 	 	"trans": "군용 탄약 기술 조각",
  	 	 	 	"eng": "Military ammunition tech parts"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "정부, 군대 등 상위계층 기관에서 사용하는 군용 탄약 기술을 이해하고있다면 좀 더 멋진 탄약을 만들 수 있을 것입니다.",
+ 	 	 	 	"trans": "군용 탄약 기술 조각, 보통 정부, 군대 그리고 상위계층이 사용합니다, 요령을 안다면 사용 가능한 탄약을 제작하는 데 사용할 수 있습니다"
  	 	 	 	"eng": "Military grade ammunition tech parts, commonly used by government, military and the elites,can be used to craft into usable Ammo if you have the know-how"
  	 	 	}
  	 	},
  	 	"techScrap": {
  	 	 	"name": {
- 	 	 	 	"trans": "공학 조각",
+ 	 	 	 	"trans": "기술 조각",
  	 	 	 	"eng": "Tech Scrap"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "기술 스크랩 분해 장비에서는 이는 XP를 인쇄하기 위해 리버스 엔지니어링 할 수 있습니다. \r\n         작업 허브에서 리버스 엔지니어링을 수행 할 수 있습니다.",
+ 	 	 	 	"trans": "장비 분해에서 나온 기술 조각, 이는 인쇄 경험치를 얻기 위해 역변환될 수 있습니다. \r\n         직업 허브에서 역변환할 수 있습니다.",
  	 	 	 	"eng": "Technology scrap from disassembled equipment, this can be reverse engineered to gain printing xp. \r\n        You can perform reverse engineering in the Job Hub."
  	 	 	}
  	 	},
  	 	"primaryWeapon": {
  	 	 	"name": {
- 	 	 	 	"trans": "주 무기",
+ 	 	 	 	"trans": "기본 무기",
  	 	 	 	"eng": "Primary Weapon"
  	 	 	}
  	 	},
@@ -950,47 +950,47 @@
  	 	},
  	 	"tertiary": {
  	 	 	"name": {
- 	 	 	 	"trans": "파괴 무기",
+ 	 	 	 	"trans": "살상 무기",
  	 	 	 	"eng": "Destructive Weapon"
  	 	 	}
  	 	},
  	 	"lootBox1": {
  	 	 	"name": {
- 	 	 	 	"trans": "잠긴 상자",
+ 	 	 	 	"trans": "잠겨있는 상자",
  	 	 	 	"eng": "locked container"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "생체 암호로 더욱 더 꽉 잠겨있는 이 상자의 안에는 무언가 중요한 것이 있는 듯 보입니다. \r\n        운좋게도 잠금장치를 구성하는 마이크로 컴퓨터에서 오래된 펌웨어를 실행중이기 때문에 상자를 열 수 있습니다. [단말기]로 가서 이 상자를 열어보세요",
+ 	 	 	 	"trans": "생체 암호화 자물쇠로 단단히 잠겨 있는 이 상자에는 중요한 아이템이 들어있는 것 같습니다.\r\n        다행히 현재 사용중인 마이크로 컴퓨터가 악용이 가능한 구식 펌웨어를 실행중입니다. [단말기]에서 이 상자를 열 수 있습니다.",
  	 	 	 	"eng": "A reinforced container with biometric encryption lock, it seems to contain important items inside.\r\n        Luckily the on board micro computer is running on out-dated firmware, where an exploit is possible, go to [Terminal] to unlock this container"
  	 	 	}
  	 	},
  	 	"lootBox2": {
  	 	 	"name": {
- 	 	 	 	"trans": "잠긴 희귀 상자",
+ 	 	 	 	"trans": "잠겨있는 희귀한 상자",
  	 	 	 	"eng": "locked rare container"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "생체 암호로 더욱 더 꽉 잠겨있는 이 상자의 안에는 무언가 중요한 것이 있는 듯 보입니다. \r\n        운좋게도 잠금장치를 구성하는 마이크로 컴퓨터에서 오래된 펌웨어를 실행중이기 때문에 상자를 열 수 있습니다. [단말기]로 가서 이 상자를 열어보세요",
+ 	 	 	 	"trans": "생체 암호화 자물쇠로 단단히 잠겨 있는 이 상자에는 중요한 아이템이 들어있는 것 같습니다.\r\n       다행히 현재 사용중인 마이크로 컴퓨터가 악용이 가능한 구식 펌웨어를 실행중입니다. [단말기]에서 이 상자를 열 수 있습니다.",
  	 	 	 	"eng": "A reinforced container with biometric encryption lock, it seems to contain important items inside.\r\n        Luckily the on board micro computer is running on out-dated firmware, where an exploit is possible, go to [Terminal] to unlock this container"
  	 	 	}
  	 	},
  	 	"lootBox3": {
  	 	 	"name": {
- 	 	 	 	"trans": "잠긴 전설 상자",
+ 	 	 	 	"trans": "잠겨있는 전설의 상자",
  	 	 	 	"eng": "locked legendary container"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "생체 암호로 더욱 더 꽉 잠겨있는 이 상자의 안에는 무언가 중요한 것이 있는 듯 보입니다. \r\n        운좋게도 잠금장치를 구성하는 마이크로 컴퓨터에서 오래된 펌웨어를 실행중이기 때문에 상자를 열 수 있습니다. [단말기]로 가서 이 상자를 열어보세요",
+ 	 	 	 	"trans": "생체 암호화 자물쇠로 단단히 잠겨 있는 이 상자에는 중요한 아이템이 들어있는 것 같습니다.\r\n        다행히 현재 사용중인 마이크로 컴퓨터가 악용이 가능한 구식 펌웨어를 실행중입니다. [단말기]에서 이 상자를 열 수 있습니다.",
  	 	 	 	"eng": "A reinforced container with biometric encryption lock, it seems to contain important items inside.\r\n        Luckily the on board micro computer is running on out-dated firmware, where an exploit is possible, go to [Terminal] to unlock this container"
  	 	 	}
  	 	},
  	 	"clanDungeonKey": {
  	 	 	"name": {
- 	 	 	 	"trans": "갱 침공 주문 송신기",
+ 	 	 	 	"trans": "갱 침공 명령 송신기",
  	 	 	 	"eng": "Gang Invasion Order Transmitter"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "갱단 암호화 된 채널에 바인딩 할 수있는 간단한 송신기 장치를 사용하여 침입 명령을 낼 수 있습니다. \r\n         이 항목은 갱도 던전을 활성화해야합니다",
+ 	 	 	 	"trans": "암호화된 갱 채널에 연결하여 침입 명령을 내릴 수 있는 간단한 송신기입니다.\r\n         이 아이템은 갱 던전을 활성화하는 데 필요합니다.",
  	 	 	 	"eng": "A simple transmitter device that can be bind to your gang encrypted channel and give out invasion order.\r\n        This item is required to activate Gang Dungeons"
  	 	 	}
  	 	},
@@ -1000,17 +1000,17 @@
  	 	 	 	"eng": "Supply Crate [Gang]"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "갱단이 기능을 유지하기위한 기타 항목과 자원이 포함되어 있습니다. \r\n         사용을 클릭하여 갱단 본부에 보냅니다",
+ 	 	 	 	"trans": "갱이 기능을 유지하기 위한 기타 항목과 자원이 포함되어 있습니다. \r\n         사용하기를 클릭하여 갱 본부에 보냅니다",
  	 	 	 	"eng": "Contains misc items and resources for a gang to stay functional,\r\n        Click use to send it to your gang headquarters"
  	 	 	}
  	 	},
  	 	"clanExp": {
  	 	 	"name": {
- 	 	 	 	"trans": "암호화 된 갱 메모리 샤드",
+ 	 	 	 	"trans": "암호화 된 갱 메모리 조각",
  	 	 	 	"eng": "encrypted gang memory shard"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "메모리 샤드에는 암호화 된 갱 비밀이 포함되어 있습니다. \r\n         유용한 인텔을 얻기 위해 갱단 본부에서 이것을 해독하십시오 (갱단에 있어야합니다)",
+ 	 	 	 	"trans": "메모리 조각에는 암호화 된 갱 비밀이 포함되어 있습니다. \r\n         유용한 정보를 얻기 위해 갱 본부에서 이것을 해독하십시오 (갱에 가입해야 사용 가능합니다)",
  	 	 	 	"eng": "A memory shard contains encrypted gang secrets, \r\n        decrypt this in your gang headquarters to gain useful intel (requires to be in a gang)"
  	 	 	}
  	 	},
@@ -1020,37 +1020,37 @@
  	 	 	 	"eng": "Equipment Calibration Core"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "흑인 시장 메모리 샤드에는 장비를 업그레이드하는 과정에서 중요한 고도로 암호화 된 알고리즘 및 개략도가 포함되어 있습니다",
+ 	 	 	 	"trans": "암시장 메모리 조각은 고도로 암호화된 알고리즘과 장비를 업그레이드하는 과정에서 중요한 역할을 하는 도식을 담고 있습니다.",
  	 	 	 	"eng": "A black market memory shard contains highly encrypted algorithm and schematic that is crucial in the process of upgrading equipments"
  	 	 	}
  	 	},
  	 	"upgradeChanceIncreaser0": {
  	 	 	"name": {
- 	 	 	 	"trans": "교정 AI 샤드 (5 %)",
+ 	 	 	 	"trans": "교정 AI 조각 (5%)",
  	 	 	 	"eng": "Calibration AI Shard (5%)"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "장비 업그레이드를 지원하도록 설계된 사전 AI 조각을 포함합니다. \r\n         사용될 때 5 분 동안 5 % (쌓을 수있는) 5 %의 기회를 줄입니다.",
+ 	 	 	 	"trans": "장비 업그레이드를 지원하기 위해 설계된 첨단 AI의 파편이 포함되어 있습니다. \r\n         사용시 5 분 동안 치명적인 실패의 확률이 5 % 감소합니다. (중첩 가능)"
  	 	 	 	"eng": "Contains fragments of advance AI designed to assist with upgrading equipments.\r\n        When used, decreases the chance of destructive failure by 5% (stackable) for 5 minutes."
  	 	 	}
  	 	},
  	 	"upgradeChanceIncreaser1": {
  	 	 	"name": {
- 	 	 	 	"trans": "교정 AI 샤드 (10 %)",
+ 	 	 	 	"trans": "교정 AI 조각 (10 %)",
  	 	 	 	"eng": "Calibration AI Shard (10%)"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "장비 업그레이드를 지원하도록 설계된 사전 AI 조각을 포함합니다. \r\n         사용될 때 10 % (쌓을 수있는) 10 % (쌓일 수있는)의 기회를 5 분 동안 줄이십시오.",
+ 	 	 	 	"trans": "장비 업그레이드를 지원하기 위해 설계된 첨단 AI의 파편이 포함되어 있습니다. \r\n         사용시 5 분 동안 치명적인 실패의 확률이 5 % 감소합니다. (중첩 가능)",
  	 	 	 	"eng": "Contains fragments of advance AI designed to assist with upgrading equipments.\r\n        When used, decreases the chance of destructive failure by 10% (stackable) for 5 minutes."
  	 	 	}
  	 	},
  	 	"upgradeChanceIncreaser2": {
  	 	 	"name": {
- 	 	 	 	"trans": "교정 AI 샤드 (50 %)",
+ 	 	 	 	"trans": "교정 AI 조각 (50 %)",
  	 	 	 	"eng": "Calibration AI Shard (50%)"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "장비 업그레이드를 지원하도록 설계된 사전 AI 조각을 포함합니다. \r\n         사용될 때 50 % (쌓을 수있는) 50 % (쌓을 수있는)의 기회를 50 % 감소시킵니다. 이 효과는 모든 플레이어에게 온라인에 적용됩니다",
+ 	 	 	 	"trans": "장비 업그레이드를 지원하기 위해 설계된 첨단 AI의 파편이 포함되어 있습니다. \r\n         사용시 5 분 동안 치명적인 실패의 확률이 5 % 감소합니다. (중첩 가능) 이 효과는 접속중인 모든 플레이어에게 적용됩니다",
  	 	 	 	"eng": "Contains fragments of advance AI designed to assist with upgrading equipments.\r\n        When used, decreases the chance of destructive failure by 50% (stackable) for 5 minutes. This effect will apply to all players online"
  	 	 	}
  	 	},
@@ -1060,7 +1060,7 @@
  	 	 	 	"eng": "Calibration AI Shard (100%)"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "장비 업그레이드를 지원하도록 설계된 사전 AI 조각을 포함합니다. \r\n         사용될 때는 5 분 동안 100 % (쌓을 수있는) 100 % (쌓일 수있는)의 가능성을 줄입니다. 이 효과는 모든 플레이어에게 온라인에 적용됩니다",
+ 	 	 	 	"trans": "장비 업그레이드를 지원하기 위해 설계된 첨단 AI의 파편이 포함되어 있습니다. \r\n          사용시 5 분 동안 치명적인 실패의 확률이 100% 감소합니다. (중첩 가능) 이 효과는 접속중인 모든 플레이어에게 적용됩니다",
  	 	 	 	"eng": "Contains fragments of advance AI designed to assist with upgrading equipments.\r\n        When used, decreases the chance of destructive failure by 100% (stackable) for 5 minutes. This effect will apply to all players online"
  	 	 	}
  	 	},
@@ -1070,7 +1070,7 @@
  	 	 	 	"eng": "Calibration Safety Nano Bots"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "실험적인 나노 기계는 캘리브레이션을 실패 할 때 파괴적인 효과를 줄이고 무효화하도록 설계되었습니다. \r\n         이것이 활성화되면 모든 보정이 실패합니다. 5 분 동안 항목을 파괴하지 않습니다",
+ 	 	 	 	"trans": "교정에 실패했을 때 파괴적인 효과를 줄이고 무효화하도록 설계된 실험용 나노 기계입니다. \r\n         이것이 활성화되면 5분 동안 모든 교정 실패는 아이템을 파괴하지 못합니다.",
  	 	 	 	"eng": "Experimental nano machines designed to reduces and negate the destructive effect when failing calibration, \r\n        when this is activated, all calibration fails will not destroy the item for 5 minutes"
  	 	 	}
  	 	},
@@ -1080,37 +1080,37 @@
  	 	 	 	"eng": "Old Pouch"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "잊혀진 고대 파우치, \r\n         큰 입과 빨간 입술이있는 이상한 만화 개구리가 있습니다. \r\n         고대 불길한 도면의 의미는 알려지지 않았지만 작은 물체를 유지하는 것이 편리합니다. \r\n         장착시 재고 공간을 늘리십시오.",
+ 	 	 	 	"trans": "잊혀진 고대 파우치, \r\n         옆 면에는 큰 입과 빨간 입술이있는 이상한 개구리 캐릭터가 있습니다. \r\n         불길한 고대 그림의 의미는 알려지지 않았지만, 작은 물체를 담고 다니기에 편리합니다. \r\n         장착시 인벤토리 공간이 늘어납니다.",
  	 	 	 	"eng": "A forgotten ancient pouch, \r\n        there is a weird cartoon frog with big mouth and red lips drawing at the side of it,\r\n        the meaning of the ancient ominous drawing is unknown, but it is handy for keep some small object in it.\r\n        increase inventory space when equipped."
  	 	 	}
  	 	},
  	 	"backpack2": {
  	 	 	"name": {
- 	 	 	 	"trans": "Fanny Pack",
+ 	 	 	 	"trans": "패니 팩",
  	 	 	 	"eng": "Fanny Pack"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "멋지고 세련된 Fanny 팩은 십수가 수십 년 전부터 바위 자신이라고 불렀습니다. \r\n         장착시 재고 공간을 늘리십시오.",
+ 	 	 	 	"trans": "멋지고 세련된 패니 팩, 수십 년 전에 'The Rock'이라 불리는 전설의 싸인이 남아있습니다. \r\n         장착시 인벤토리 공간이 늘어납니다.",
  	 	 	 	"eng": "Cool and fashionable Fanny Pack, signed by a legend called The Rock himself from decades ago.\r\n        increase inventory space when equipped."
  	 	 	}
  	 	},
  	 	"backpack3": {
  	 	 	"name": {
- 	 	 	 	"trans": "탐색기의 배낭",
+ 	 	 	 	"trans": "모험가의 배낭",
  	 	 	 	"eng": "Explorer's Backpack"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "오래된 유치원 보라색 '탐색기'배낭을 찾고, 그것은 이전의 소유자의 이름 \"Dora\"와 이름 태그가 있습니다. \r\n         장착시 재고 공간을 늘리십시오",
+ 	 	 	 	"trans": "오래되고 유치해 보이는 보라색 '모험가' 배낭, 이전의 주인의 이름 \"Dora\"가 적혀있는 이름표가 붙어있습니다. 당신과 잘 어울리네요. \r\n         장착시 인벤토리 공간이 늘어납니다.",
  	 	 	 	"eng": "An old Kindergarten looking Purple 'Explorer' Backpack, it has a name tag with the previous owner's name \"Dora\" written on it, you look fabulous wearing it.\r\n        increase inventory space when equipped"
  	 	 	}
  	 	},
  	 	"backpack4": {
  	 	 	"name": {
- 	 	 	 	"trans": "직원 사무실 케이스",
+ 	 	 	 	"trans": "직원의 사무용 가방",
  	 	 	 	"eng": "Employee Office Case"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "표준 발행 사무실 케이스, 그것은 \"Arasaka\"로 오순절 인쇄가있는 레이블이 있습니다. \r\n         염세가 있고 첨단 기술 구획과 문서 저장을위한 슬롯이 있지만 무기를 운반하는 데는별로 적합하지 않습니다. \r\n         장착시 재고 공간을 늘리십시오",
+ 	 	 	 	"trans": "보통의 사무용 가방, \"Arasaka\"가 인쇄된 라벨이 붙어있습니다. \r\n         겉보기에는 근사하고 첨단 기술이 적용된 데다가 문서 보관을 위한 칸이 있지만, 무기를 넣기에는 매우 적합하지 않습니다. \r\n         장착시 인벤토리 공간이 늘어납니다.",
  	 	 	 	"eng": "An standard issue office case, it has a label with whit print with \"Arasaka\" on it, \r\n        while it is specious and has some high tech compartment and slots for document storage, it is not not very suitable for carrying weapons\r\n        increase inventory space when equipped"
  	 	 	}
  	 	},
@@ -1120,47 +1120,47 @@
  	 	 	 	"eng": "Autonomous Storage Unit"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "군대가 장비를 운반하도록 설계된 봇을 사용하고 자율적으로 따라야합니다. \r\n         스파이더의 움직임을 모방하는 6 개의 강한 다리와 온보드 AI, \r\n         그것은 당신이 공연하고있는 임무를 수행하는 방식으로 얻는 방식으로 피해야 할 때 신속하고 조용히 따를 수 있습니다",
+ 	 	 	 	"trans": "당신의 도구를 운반하고 당신을 자율적으로 따라다니도록 디자인된 군사용 로봇으로, \r\n         6개의 강한 다리로 거미의 움직임을 모방하고 강화된 AI가 탑재되어 있습니다. \r\n         당신이 수행하는 임무를 방해하지 않도록 신속하고 조용히 당신을 따라다닙니다.",
  	 	 	 	"eng": "An military used bot designed to carry your equipments and follows you autonomously,\r\n        with it's six strong legs that imitates the movement of spiders and a advance onboard AI, \r\n        it can follow you swiftly and quietly while it avoids get in the way of whatever mission you are performing"
  	 	 	}
  	 	},
  	 	"healing9": {
  	 	 	"name": {
- 	 	 	 	"trans": "전설적인 나노 의료비 봇",
+ 	 	 	 	"trans": "전설의 나노 의료 봇",
  	 	 	 	"eng": "Legendary Nano Medic Bot"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "전투 상황에서 상해를 패치 할 수있는 사전 군사적 사용을위한 주사 가능한 나노 기계",
+ 	 	 	 	"trans": "군사용 주입형 나노 머신으로, 전투 중에 상처를 치료할 수 있습니다.",
  	 	 	 	"eng": "injectable nano machines that is for advance military use, capable of patching injury in combat situation"
  	 	 	}
  	 	},
  	 	"healing10": {
  	 	 	"name": {
- 	 	 	 	"trans": "서사시 나노 메딕 봇",
+ 	 	 	 	"trans": "에픽 나노 의료 봇",
  	 	 	 	"eng": "Epic Nano Medic Bot"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "전투 상황에서 상해를 패치 할 수있는 사전 군사적 사용을위한 주사 가능한 나노 기계",
+ 	 	 	 	"trans": "군사용 주입형 나노 머신으로, 전투 중에 상처를 치료할 수 있습니다.",
  	 	 	 	"eng": "injectable nano machines that is for advance military use, capable of patching injury in combat situation"
  	 	 	}
  	 	},
  	 	"healingArea9": {
  	 	 	"name": {
- 	 	 	 	"trans": "전설적인 나노 메딕 드론",
+ 	 	 	 	"trans": "전설의 나노 의료 드론",
  	 	 	 	"eng": "Legendary Nano medic drone"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "인근 선수를 치유하기 위해 수천 개의 고급 나노 기계를 파견 할 수있는",
+ 	 	 	 	"trans": "수천 개의 나노 머신을 투입하여 주변 플레이어를 치료할 수 있습니다.",
  	 	 	 	"eng": "capable of dispatching thousands of advanced nano machines to heal nearby players"
  	 	 	}
  	 	},
  	 	"healingArea10": {
  	 	 	"name": {
- 	 	 	 	"trans": "서사시 나노 메딕 드론",
+ 	 	 	 	"trans": "에픽 나노 메딕 드론",
  	 	 	 	"eng": "Epic Nano medic drone"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "인근 선수를 치유하기 위해 수천 개의 고급 나노 기계를 파견 할 수있는",
+ 	 	 	 	"trans": "수천 개의 나노 머신을 투입하여 주변 플레이어를 치료할 수 있습니다.",
  	 	 	 	"eng": "capable of dispatching thousands of advanced nano machines to heal nearby players"
  	 	 	}
  	 	},
@@ -1170,47 +1170,47 @@
  	 	 	 	"eng": "Calibration AI Shard (50%) [EVENT]"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "장비 업그레이드를 지원하도록 설계된 사전 AI 조각을 포함합니다. \r\n         사용될 때 50 %의 파괴적인 실패의 가능성을 50 % 감소시킵니다. 이것은 자신에게만 영향을 미칩니다. \r\n         갱단 본사에서 항목을 보정 할 수 있습니다. 먼저 가입하거나 시작해야합니다.",
+ 	 	 	 	"trans": "장비 업그레이드를 지원하도록 설계된 강화 AI 파편을 포함하고 있습니다. \r\n         사용시 5 분 동안 치명적인 실패의 가능성이 50 % 감소합니다. 이것은 자신에게만 영향이 있습니다. \r\n         갱 본부에서 아이템을 교정할 수 있습니다. 먼저 갱에 가입하거나 갱을 창설해야합니다.",
  	 	 	 	"eng": "Contains fragments of advance AI designed to assist with upgrading equipments.\r\n        When used, decreases the chance of destructive failure by 50% for 5 minutes. this only affect yourself.\r\n        You can calibrate items in your Gang Headquarters, you must join or start a gang first."
  	 	 	}
  	 	},
  	 	"chatExploitPirate": {
  	 	 	"name": {
- 	 	 	 	"trans": "채팅 익스플로잇 송신기 [해적]",
+ 	 	 	 	"trans": "채팅 악용 송신기 [해적]",
  	 	 	 	"eng": "Chat exploit transmitter [PIRATE]"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "글로벌 채팅 패키지를 가로 채고 수정하는 익스플로잇 모듈로 인력이 중간 공격을 수행합니다. \r\n         글로벌 채팅에서 모든 연설을 해적 말로 변화시킵니다. 모든 플레이어가 10 분 동안 이펙트합니다",
+ 	 	 	 	"trans": "글로벌 채팅을 가로 채서 수정하는 악용 모듈로 중간자 공격을 시행합니다. \r\n         글로벌 채팅에서 모든 말을 해적 말로 변환합니다. 모든 플레이어에게 10 분 동안 영향을 줍니다.",
  	 	 	 	"eng": "A exploit module that intercepts global chat packages and modifies it, performing Man-In-The-Middle attack.\r\n        Transforms all speech at global chat to Pirate Speak. This effects all players for 10 minutes"
  	 	 	}
  	 	},
  	 	"chatExploitLeet": {
  	 	 	"name": {
- 	 	 	 	"trans": "채팅 익스플로잇 송신기 [1337]",
+ 	 	 	 	"trans": "채팅 악용 송신기 [1337]",
  	 	 	 	"eng": "Chat exploit transmitter [1337]"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "글로벌 채팅 패키지를 가로 채고 수정하는 익스플로잇 모듈로 인력이 중간 공격을 수행합니다. \r\n         글로벌 채팅에서 L33T SP34K로 모든 연설을 변환합니다. 모든 플레이어가 10 분 동안 이펙트합니다",
+ 	 	 	 	"trans": "글로벌 채팅을 가로 채서 수정하는 악용 모듈로 중간자 공격을 시행합니다. \r\n         글로벌 채팅에서 리트(l337)로 모든 연설을 변환합니다. 모든 플레이어에게 10 분 동안 영향을 줍니다.",
  	 	 	 	"eng": "A exploit module that intercepts global chat packages and modifies it, performing Man-In-The-Middle attack.\r\n        Transforms all speech at global chat to l33t Sp34k. This effects all players for 10 minutes"
  	 	 	}
  	 	},
  	 	"chatExploitUwU": {
  	 	 	"name": {
- 	 	 	 	"trans": "채팅 익스플로잇 송신기 [Uwu]",
+ 	 	 	 	"trans": "채팅 악용 송신기 [UwU]",
  	 	 	 	"eng": "Chat exploit transmitter [UwU]"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "expwoit gwobaw 채팅 패키지를 intewiaThing하고 그것을 수정하고, pewfowming man-in-the-middwe attack. \r\n          TwansFowms Gwobaw에서 uwu와 함께 채팅에서 AWW 연설을합니다. 이 효과는 AWW PAWEEWS FOW 10 분입니다",
+ 	 	 	 	"trans": "글료별 채팅을 갸료 채셔 슈졍햐는 약용 모듈료 즁갼쟈 굥격을 시헁햡니댜. \r\n          글료벌 챼팅예셔 uwu 먈튜료 묘든 연셜을 변환햡니댜. 묘든 플례이여예계 10 뷴 둉안 영향을 쥽니댜.",
  	 	 	 	"eng": "A expwoit moduwe that intewcepts gwobaw chat packages and modifies it, pewfowming man-in-the-middwe attack.\r\n         twansfowms aww speech at gwobaw chat to uwu speak. This effects aww pwayews fow 10 minutes"
  	 	 	}
  	 	},
  	 	"upgradeResetShard": {
  	 	 	"name": {
- 	 	 	 	"trans": "공장 재설정 샤드",
+ 	 	 	 	"trans": "공장 리셋 조각",
  	 	 	 	"eng": "Factory reset shard"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "샤드는 장비의 기본 설정과 알고리즘을 저장합니다. 이는 장비를 재설정하는 데 사용됩니다",
+ 	 	 	 	"trans": "장비의 기본 설정과 알고리즘을 저장하는 조각입니다. 이는 장비를  공장 리셋하는 데 사용됩니다",
  	 	 	 	"eng": "A shard stores default settings and algorithm for equipments, this is used for factory-resetting your equipments"
  	 	 	}
  	 	},
@@ -1220,17 +1220,17 @@
  	 	 	 	"eng": "Personal Synaptic Accelerator"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "사용시 AFK 작업에서 60 분을 건너 뜁니다. \r\n         AFK 화면에서 사용해야합니다",
+ 	 	 	 	"trans": "사용시 비접속 작업에서 60 분을 건너뜁니다. \r\n         비접속 화면에서 사용해야합니다",
  	 	 	 	"eng": "When used, skip 60 minutes on AFK tasks.\r\n        must be used at AFK screen"
  	 	 	}
  	 	},
  	 	"chatExploitLove": {
  	 	 	"name": {
- 	 	 	 	"trans": "채팅 익스플로잇 송신기 [LOVE]",
+ 	 	 	 	"trans": "채팅 악용 송신기 [Love]",
  	 	 	 	"eng": "Chat exploit transmitter [Love]"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "당신은 사랑을 얻습니다. 그리고 당신은 사랑을 얻습니다! 모두가 사랑을 얻습니다!. \r\n         모든 사람들이 서로를 사랑할 때 \r\n         이 효과 모든 플레이어는 10 분간 붐을줍니다",
+ 	 	 	 	"trans": "당신은 사랑을 받고 또 받습니다! 모두가 사랑을 받습니다!. \r\n         사용시 모두가 서로를 사랑합니다. \r\n         모든 플레이어에게 10 분 둉안 영향을 줍니다.",
  	 	 	 	"eng": "You get some love, and you get some love! everyone gets some love!.\r\n        When used everyone loves each other\r\n        This effects all players fow 10 minutes"
  	 	 	}
  	 	},
@@ -1240,17 +1240,17 @@
  	 	 	 	"eng": "CyberTunnel VPN"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "사이버 공간을 탐색하는 동안 큰 형제가 당신을 훔쳐 갔을까요? \r\n         인터컴은 항상 악의적 인 공격에 의해 해킹 당했습니까? \r\n         CyberTunnel VPN을 사용하여 NetRunning 경험을 보호하고 암호화하십시오! \r\n        \r\n         일단 활성화되면 1 시간 동안 모든 채팅을 무시합니다",
+ 	 	 	 	"trans": "사이버 공간을 탐색하는 동안 빅 브라더가 당신을 염탐할까 봐 걱정되나요? \r\n         당신의 인터콤이 언제나 악의적인 공격에 해킹을 당하나요? \r\n         CyberTunnel VPN을 사용하여 NetRunning 경험을 보호하고 암호화하십시오! \r\n        \r\n         한 번 활성화되면 1 시간 동안 모든 채팅을 무시합니다",
  	 	 	 	"eng": "Worried the Big Brother spying on you while you browse the cyberspace?\r\n        your intercoms always get hacked by malicious attacks? \r\n        use CyberTunnel VPN to protect and encrypt your netrunning experience! \r\n        \r\n        Once activated, ignores any chat exploit for 1 hour"
  	 	 	}
  	 	},
  	 	"hackTool": {
  	 	 	"name": {
- 	 	 	 	"trans": "프로토콜 위반 샤드",
+ 	 	 	 	"trans": "프로토콜 파괴 조각",
  	 	 	 	"eng": "Protocol Breach Shard"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "사전에 착취가 포함 된 샤드. \r\n         Shangri-La 데이터 요새와 같은 시스템을 위반하는 데 사용할 수 있습니다",
+ 	 	 	 	"trans": "강화된 취약점 공격이 포함된 조각. \r\n         샹그릴라 데이터 요새와 같은 시스템을 파괴하는 데 사용할 수 있습니다",
  	 	 	 	"eng": "A shard that contains advance exploits. \r\n        Can be used to breach systems such as Shangri-la Data Fortress"
  	 	 	}
  	 	}
@@ -1263,7 +1263,7 @@
  	 	 	 	 	"keyFragmentDisplayName",
  	 	 	 	 	"maxLevel"
  	 	 	 	],
- 	 	 	 	"trans": "추천 레벨:　${maxLevel}\r\n                    ${expMultiplier}배의 경험치!\r\n                    ${keyFragmentDisplayName}(이)가 나옵니다.",
+ 	 	 	 	"trans": "권장 레벨:　${maxLevel}\r\n                    ${expMultiplier}배의 경험치!\r\n                    ${keyFragmentDisplayName}(이)가 나옵니다.",
  	 	 	 	"eng": "Recommended Level:　${maxLevel}\r\n                    ${expMultiplier}x times more EXP!\r\n                    Drops ${keyFragmentDisplayName}"
  	 	 	},
  	 	 	"startName": {
@@ -1277,7 +1277,7 @@
  	 	 	 	"vars": [
  	 	 	 	 	"zoneName"
  	 	 	 	],
- 	 	 	 	"trans": "더 많은 경험치와 전리품을 원한다면 지금 바로 던전에 도전하십시오!\r\n                        던전에서는 전투 후 자동 회복되지 않으니 회복아이템을 잊지마세요!!",
+ 	 	 	 	"trans": "준비 됐나요? 당신의 힘을 가장 쉬운 보통 던전에서 시험할 수 있습니다. \r\n                        던전에서는 전투 후 체력이 자동 회복되지 않으니 회복 아이템을 잊지마세요!!",
  	 	 	 	"eng": "Are you ready? you can test your strength out with normal dungeon, the easiest one.\r\n                        Remember to bring healing item! you won't heal after fights in dungeon"
  	 	 	}
  	 	},
@@ -1288,18 +1288,18 @@
  	 	 	 	 	"keyFragmentDisplayName",
  	 	 	 	 	"expMultiplier"
  	 	 	 	],
- 	 	 	 	"trans": "추천 레벨:　${maxLevel} 이상과 협동\r\n                    ${expMultiplier}배의 경험치!\r\n                    챌린지 모드의 던전, 더 많은 아이템과 경험치.\r\n                    ${keyFragmentDisplayName}가 나옵니다.\r\n                    레벨이 너무 낮은 사람에게는 추천되지 않습니다.",
+ 	 	 	 	"trans": "권장 레벨:　${maxLevel} 이상과 코옵(co-op)\r\n                    ${expMultiplier}배의 경험치!\r\n                    챌린지 모드의 던전, 더 많은 아이템과 경험치.\r\n                    ${keyFragmentDisplayName}(이)가 나옵니다.\r\n                    레벨이 너무 낮은 사람에게는 추천되지 않습니다.",
  	 	 	 	"eng": "Recommended Level:　${maxLevel}+ with co-op\r\n                    ${expMultiplier}x more EXP!\r\n                    Challenge mode dungeon, extra loot and exp.\r\n                    Drops ${keyFragmentDisplayName}\r\n                    Not advised to enter if your level is too low"
  	 	 	},
  	 	 	"tut": {
- 	 	 	 	"trans": "당신이 충분히 강하다고 생각해요? 그럼 던전에 도전해보는건 어떨까요?\r\n                        강력한 보스와 엄청난 전리품들이 당신을 기다리고 있지요!!\r\n                        혼자서는 힘들걸요? 다른 플레이어와 협동하는걸 권장합니다.",
+ 	 	 	 	"trans": "당신은 충분히 강합니까? 챌린지 던전에서 시험해보십시오. \r\n                        던전의 끝에서 강력한 보스와 수많은 전리품들이 당신을 기다리고 있습니다!\r\n                        다른 플레이어들과 협력하는 것이 권장됩니다.",
  	 	 	 	"eng": "Are you strong enough? try it out on Challenge Dungeon,\r\n                        there is a strong boss and tons of loot at the end waiting for you!\r\n                        Its recommended to attempt this with other players."
  	 	 	},
  	 	 	"startName": {
  	 	 	 	"vars": [
  	 	 	 	 	"zoneName"
  	 	 	 	],
- 	 	 	 	"trans": "${zoneName} 공격",
+ 	 	 	 	"trans": "${zoneName} 공격하기",
  	 	 	 	"eng": "attack ${zoneName}"
  	 	 	}
  	 	},
@@ -1308,7 +1308,7 @@
  	 	 	 	"vars": [
  	 	 	 	 	"zoneName"
  	 	 	 	],
- 	 	 	 	"trans": "${zoneName} 침공",
+ 	 	 	 	"trans": "${zoneName} 침공하기",
  	 	 	 	"eng": "invade ${zoneName}"
  	 	 	},
  	 	 	"description": {
@@ -1317,12 +1317,12 @@
  	 	 	 	 	"keyFragmentDisplayName",
  	 	 	 	 	"expMultiplier"
  	 	 	 	],
- 	 	 	 	"trans": "권장 레벨 : ${maxLevel} + co-op \r\n                     ${expMultiplier} x 더 많은 특급! \r\n                     갱 모드 지하 감옥, 추가 전리품 및 특급. \r\n                     보스 드롭은 드문 +입니다 \r\n                     수준이 너무 낮 으면 들어가는 것이 좋습니다",
+ 	 	 	 	"trans": "권장 레벨 : ${maxLevel} 이상과 코옵(co-op) \r\n                     ${expMultiplier}배의 경험치와 4~5배 강한 적들! \r\n                     갱 모드 던전, 추가 전리품과 경험치. \r\n                    *시도할 엄두도 안 나는 수준*",
  	 	 	 	"eng": "Recommended Level:　${maxLevel}+ with co-op\r\n                    ${2.3}x more EXP! and 4~5x stronger enemies!\r\n                    Gang mode dungeon, extra loot and exp.\r\n                    *Not for the faint of heart*"
  	 	 	}
  	 	},
  	 	"buttonTut": {
- 	 	 	"trans": "당신이 충분히 강하고 있다고 생각합니까? 지하 감옥에서 더 강한 적을 받아! \r\n                         치유 항목을 사는 것을 기억하십시오! 지하 감옥에서 전투 후에 다시 정리하지 않을 것입니다",
+ 	 	 	"trans": "당신이 충분히 강하다고 생각합니까? 던전에서 더 강한 적과 대결하십시오! \r\n                         회복 아이템을 구매하는 것을 잊지 마세요! 던전에서의 전투 후 후회하지 않으려면 말이죠.",
  	 	 	"eng": "Do you think you are strong enough? take on stronger enemies in dungeon!\r\n                        remember to buy some healing item! you won't regen after battle in dungeon"
  	 	}
  	},
@@ -1331,11 +1331,11 @@
  	 	 	"vars": [
  	 	 	 	"segmentDisplayName"
  	 	 	],
- 	 	 	"trans": "${segmentDisplayName} 비밀 열쇠",
+ 	 	 	"trans": "${segmentDisplayName} 열쇠",
  	 	 	"eng": "${segmentDisplayName} Secret Key"
  	 	},
  	 	"unlockVerb": {
- 	 	 	"trans": "무차별 대입",
+ 	 	 	"trans": "무차별 대입 공격",
  	 	 	"eng": "brute-force"
  	 	}
  	},
@@ -1344,20 +1344,20 @@
  	 	 	"vars": [
  	 	 	 	"segmentDisplayName"
  	 	 	],
- 	 	 	"trans": "Progression-${progressionId}",
+ 	 	 	"trans": "${segmentDisplayName}에 위치한 각각의 던전에서 서로 다른 3개의 열쇠 조각을 얻고,\r\n                이들은 다음 영역으로 가는 열쇠를 만드는 데 사용됩니다.\r\n                열쇠를 만들기 위해, [중심지]에 있는 단말기로 이동하십시오.",
  	 	 	"eng": "Acquire 3 different Key Fragments from each dungeons located in ${segmentDisplayName},\r\n                these are used to create the key to next zone.\r\n                To craft the key, go to terminal in [HUB]",
  	 	 	"name": {
  	 	 	 	"vars": [
  	 	 	 	 	"progressionId"
  	 	 	 	],
- 	 	 	 	"trans": "진행 - ${progressionId}",
+ 	 	 	 	"trans": "진행도- ${progressionId}",
  	 	 	 	"eng": "Progression-${progressionId}"
  	 	 	},
  	 	 	"description": {
  	 	 	 	"vars": [
  	 	 	 	 	"segmentDisplayName"
  	 	 	 	],
- 	 	 	 	"trans": "${segmentDisplayName}에 위치한 각 던전에서 3 가지 주요 조각을 획득하고, \r\n                 다음 영역에 키를 만드는 데 사용됩니다. \r\n                 키를 공예하기 위해 [허브]에서 터미널로 이동하십시오",
+ 	 	 	 	"trans": "${segmentDisplayName}에 위치한 각각의 던전에서 서로 다른 3개의 열쇠 조각을 얻고, \r\n                 이들은 다음 영역으로 가는 열쇠를 만드는 데 사용됩니다. \r\n                 열쇠를 만들기 위해 위해 [중심지]에 있는 단말기로 이동하십시오.",
  	 	 	 	"eng": "Acquire 3 different Key Fragments from each dungeons located in ${segmentDisplayName},\r\n                these are used to create the key to next zone.\r\n                To craft the key, go to terminal in [HUB]"
  	 	 	}
  	 	},
@@ -1376,12 +1376,12 @@
  	 	 	},
  	 	 	"clearDungeon": {
  	 	 	 	"name": {
- 	 	 	 	 	"trans": "던전 크롤 러",
+ 	 	 	 	 	"trans": "던전 크롤러",
  	 	 	 	 	"eng": "dungeon crawler"
  	 	 	 	}
  	 	 	},
  	 	 	"dealDamage": {
- 	 	 	 	"trans": "대미지 주기",
+ 	 	 	 	"trans": "대미지 가하기",
  	 	 	 	"eng": "Deal Damage"
  	 	 	},
  	 	 	"exp": {
@@ -1389,7 +1389,7 @@
  	 	 	 	"eng": "Gain exp"
  	 	 	},
  	 	 	"joinDungeon": {
- 	 	 	 	"trans": "던전 입장",
+ 	 	 	 	"trans": "던전 합류",
  	 	 	 	"eng": "Join Dungeon"
  	 	 	},
  	 	 	"killEnemy": {
@@ -1397,11 +1397,11 @@
  	 	 	 	"eng": "Kill enemy"
  	 	 	},
  	 	 	"getMoney": {
- 	 	 	 	"trans": "비트코인 획득",
+ 	 	 	 	"trans": "비트코인 획득하기",
  	 	 	 	"eng": "Acquire Bitcoin"
  	 	 	},
  	 	 	"print": {
- 	 	 	 	"trans": "분자 프린팅",
+ 	 	 	 	"trans": "분자 프린팅하기",
  	 	 	 	"eng": "Molecular Printing"
  	 	 	}
  	 	}
@@ -1409,18 +1409,18 @@
  	"ui": {
  	 	"header": {
  	 	 	"playerOnline": {
- 	 	 	 	"trans": "명 접속 중",
+ 	 	 	 	"trans": "플레이어 접속중",
  	 	 	 	"eng": "players online"
  	 	 	},
  	 	 	"online": {
  	 	 	 	"vars": [
  	 	 	 	 	"skipCount"
  	 	 	 	],
- 	 	 	 	"trans": "${skipCount} 건너 뛰기",
+ 	 	 	 	"trans": "${skipCount} 스킵하기",
  	 	 	 	"eng": "Skipping ${skipCount}"
  	 	 	},
  	 	 	"skipAvailable": {
- 	 	 	 	"trans": "건너 뛰기 사용 가능",
+ 	 	 	 	"trans": "스킵하기 사용 가능",
  	 	 	 	"eng": "Skip Available"
  	 	 	}
  	 	},
@@ -1434,17 +1434,17 @@
  	 	 	 	"eng": "Request in progress..."
  	 	 	},
  	 	 	"watchAdRefresh": {
- 	 	 	 	"trans": "광고보고 퀘스트 받기",
+ 	 	 	 	"trans": "광고 시청 후 퀘스트 새로 받기",
  	 	 	 	"eng": "Watch an AD to refresh quest"
  	 	 	}
  	 	},
  	 	"map": {
  	 	 	"interactable": {
- 	 	 	 	"trans": "상호작용",
+ 	 	 	 	"trans": "상호작용할 수 있는",
  	 	 	 	"eng": "Interactable"
  	 	 	},
  	 	 	"travel": {
- 	 	 	 	"trans": "여행",
+ 	 	 	 	"trans": "이동하기",
  	 	 	 	"eng": "Travel"
  	 	 	}
  	 	},
@@ -1454,11 +1454,11 @@
  	 	 	 	"eng": "Alias"
  	 	 	},
  	 	 	"title": {
- 	 	 	 	"trans": "등급",
+ 	 	 	 	"trans": "후원 등급",
  	 	 	 	"eng": "title"
  	 	 	},
  	 	 	"gearScore": {
- 	 	 	 	"trans": "장비 점수",
+ 	 	 	 	"trans": "장비 등급",
  	 	 	 	"eng": "Gear Score"
  	 	 	},
  	 	 	"location": {
@@ -1466,7 +1466,7 @@
  	 	 	 	"eng": "location"
  	 	 	},
  	 	 	"onlineStatus": {
- 	 	 	 	"trans": "시스템 연결",
+ 	 	 	 	"trans": "시스템 연결상태",
  	 	 	 	"eng": "system link"
  	 	 	},
  	 	 	"streetCred": {
@@ -1474,7 +1474,7 @@
  	 	 	 	"eng": "Street Cred"
  	 	 	},
  	 	 	"status": {
- 	 	 	 	"trans": "스탯",
+ 	 	 	 	"trans": "현재 상태",
  	 	 	 	"eng": "Status"
  	 	 	},
  	 	 	"numOfMember": {
@@ -1483,7 +1483,7 @@
  	 	 	},
  	 	 	"gangAction": {
  	 	 	 	"label": {
- 	 	 	 	 	"trans": "갱 동작",
+ 	 	 	 	 	"trans": "갱 행동",
  	 	 	 	 	"eng": "Gang Actions"
  	 	 	 	},
  	 	 	 	"kick": {
@@ -1491,13 +1491,13 @@
  	 	 	 	 	"eng": "Kick"
  	 	 	 	},
  	 	 	 	"transferLeadership": {
- 	 	 	 	 	"trans": "권한 임명하기",
+ 	 	 	 	 	"trans": "통솔권 위임하기",
  	 	 	 	 	"eng": "Transfer Leadership"
  	 	 	 	}
  	 	 	},
  	 	 	"playerActions": {
  	 	 	 	"label": {
- 	 	 	 	 	"trans": "플레이어 동작",
+ 	 	 	 	 	"trans": "플레이어 행동",
  	 	 	 	 	"eng": "Player Actions"
  	 	 	 	},
  	 	 	 	"sendPrivateMsg": {
@@ -1513,11 +1513,11 @@
  	 	 	 	 	"eng": "Invite to Gang"
  	 	 	 	},
  	 	 	 	"addToFriend": {
- 	 	 	 	 	"trans": "친구 리스트에 추가",
+ 	 	 	 	 	"trans": "친구 리스트에 추가하기",
  	 	 	 	 	"eng": "add to Friend List"
  	 	 	 	},
  	 	 	 	"removeFromFriend": {
- 	 	 	 	 	"trans": "친구 리스트에서 삭제",
+ 	 	 	 	 	"trans": "친구 리스트에서 삭제하기",
  	 	 	 	 	"eng": "Remove from Friend List"
  	 	 	 	},
  	 	 	 	"giveStreetCred": {
@@ -1534,11 +1534,11 @@
  	 	 	 	"eng": "REDACTED"
  	 	 	},
  	 	 	"equipped": {
- 	 	 	 	"trans": "갖추어 준",
+ 	 	 	 	"trans": " 중인 아이템",
  	 	 	 	"eng": "Equipped"
  	 	 	},
  	 	 	"inventory": {
- 	 	 	 	"trans": "목록",
+ 	 	 	 	"trans": "인벤토리",
  	 	 	 	"eng": "Inventory"
  	 	 	}
  	 	},
@@ -1548,23 +1548,23 @@
  	 	 	 	"eng": "Look around"
  	 	 	},
  	 	 	"myStall": {
- 	 	 	 	"trans": "내 판매대",
+ 	 	 	 	"trans": "나의 판매대",
  	 	 	 	"eng": "My Stall"
  	 	 	},
  	 	 	"increaseSlot": {
  	 	 	 	"vars": [
  	 	 	 	 	"nextSlotSize"
  	 	 	 	],
- 	 	 	 	"trans": "${nextSlotSize}개로 증축하기",
+ 	 	 	 	"trans": "${nextSlotSize}개로 슬롯 증축하기",
  	 	 	 	"eng": "Increase slot to ${nextSlotSize}"
  	 	 	},
  	 	 	"stall": {
  	 	 	 	"sellItemButton": {
- 	 	 	 	 	"trans": "판매에 항목을 넣어 라",
+ 	 	 	 	 	"trans": "아이템 판매하기",
  	 	 	 	 	"eng": "Put Item On Sale"
  	 	 	 	},
  	 	 	 	"selectItemForSale": {
- 	 	 	 	 	"trans": "판매 할 항목을 선택하십시오",
+ 	 	 	 	 	"trans": "판매 할 아이템을 선택하십시오",
  	 	 	 	 	"eng": "Please select the item you want to sell"
  	 	 	 	}
  	 	 	},
@@ -1572,11 +1572,11 @@
  	 	 	 	"vars": [
  	 	 	 	 	"nextSlotSize"
  	 	 	 	],
- 	 	 	 	"trans": "동시에 마구간에 넣을 수있는 항목을 얼마나 많이 늘릴 수있는 비트 코인을 씁니다",
+ 	 	 	 	"trans": "가판대에 동시에 넣을 수 있는 아이템 수를 늘리기 위해 비트코인을 지불합니다.",
  	 	 	 	"eng": "Spend Bitcoins to increase how many items you can put in your stall at the same time"
  	 	 	},
  	 	 	"cantEnterError": {
- 	 	 	 	"trans": "시장에 액세스하려면 적어도 레벨 4가 필요합니다",
+ 	 	 	 	"trans": "시장에 이용은 레벨 4부터 가능합니다.",
  	 	 	 	"eng": "You need to be at least level 4 to access the market"
  	 	 	}
  	 	},
@@ -1588,7 +1588,7 @@
  	 	},
  	 	"chat": {
  	 	 	"chat": {
- 	 	 	 	"trans": "대화",
+ 	 	 	 	"trans": "채팅",
  	 	 	 	"eng": "chat"
  	 	 	},
  	 	 	"gang": {
@@ -1604,7 +1604,7 @@
  	 	 	 	"eng": "noti."
  	 	 	},
  	 	 	"reconnecting": {
- 	 	 	 	"trans": "연결을 재구성합니다",
+ 	 	 	 	"trans": "연결 재설정 중",
  	 	 	 	"eng": "Reestablishing connection"
  	 	 	},
  	 	 	"underlevelChatBlock": {
@@ -1621,7 +1621,7 @@
  	 	 	 	"eng": "Language"
  	 	 	},
  	 	 	"langWarning": {
- 	 	 	 	"trans": "이 언어 팩은 이 게임의 플레이어들이 만든 오픈 소스로, 모든 텍스트가 다 해석되지 않을 수 있으며 실수가 있을 수 있습니다. 깃헙 페이지에서 편집하고 기여해주세요.",
+ 	 	 	 	"trans": "이 언어 팩은 플레이어들이 만든 오픈 소스로, 모든 텍스트가 다 해석되지 않았을 수도 있으며 실수가 있을 수도 있습니다. 깃헙 페이지에서 편집하고 기여해주세요.",
  	 	 	 	"eng": "This language pack is open source and contributed by our players, the text may not be fully translated and could contain mistakes. please feel free to edit and contribute from our Github page"
  	 	 	},
  	 	 	"playBackgroundMusic": {
@@ -1629,7 +1629,7 @@
  	 	 	 	"eng": "Mute background music"
  	 	 	},
  	 	 	"restartRequired": {
- 	 	 	 	"trans": "앱이 저장 후 자동으로 재시작됩니다.",
+ 	 	 	 	"trans": "설정 저장 후 앱이 자동으로 재시작됩니다.",
  	 	 	 	"eng": "App will self restart after save"
  	 	 	},
  	 	 	"save": {
@@ -1641,7 +1641,7 @@
  	 	 	 	"eng": "Help with translating the game"
  	 	 	},
  	 	 	"receiveClanNotification": {
- 	 	 	 	"trans": "갱단 알림을받습니다",
+ 	 	 	 	"trans": "갱 알림을 받기",
  	 	 	 	"eng": "Receive Gang Notification"
  	 	 	},
  	 	 	"receiveGlobalNotification": {
@@ -1650,11 +1650,11 @@
  	 	 	},
  	 	 	"disableAttackBar": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "공격 타이밍 바를 비활성화하십시오",
+ 	 	 	 	 	"trans": "공격 타이밍 바를 비활성하기",
  	 	 	 	 	"eng": "Disable Attack Timing Bar"
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "공격 타이밍 막대를 비활성화하면 추가 피해가 부여되지 않습니다",
+ 	 	 	 	 	"trans": "공격 타이밍 바를 비활성화하면 추가 피해가 발생하지 않습니다",
  	 	 	 	 	"eng": "Disabling attack timing bar will not grant extra damage"
  	 	 	 	}
  	 	 	},
@@ -1663,7 +1663,7 @@
  	 	 	 	"eng": "Enable Cyberpunk Mode"
  	 	 	},
  	 	 	"dangerZone": {
- 	 	 	 	"trans": "위험",
+ 	 	 	 	"trans": "위험 구역",
  	 	 	 	"eng": "Danger Zone"
  	 	 	},
  	 	 	"enableBackgroundMusic": {
@@ -1676,7 +1676,7 @@
  	 	 	},
  	 	 	"blockGifts": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "선물 받기를 비활성화합니다",
+ 	 	 	 	 	"trans": "선물 받기를 비활성화하기",
  	 	 	 	 	"eng": "Disable receiving gifts"
  	 	 	 	}
  	 	 	}
@@ -1687,7 +1687,7 @@
  	 	 	 	"eng": "Profile"
  	 	 	},
  	 	 	"update": {
- 	 	 	 	"trans": "업데이트",
+ 	 	 	 	"trans": "업데이트 내용",
  	 	 	 	"eng": "Updates"
  	 	 	},
  	 	 	"tutorial": {
@@ -1700,7 +1700,7 @@
  	 	 	},
  	 	 	"deleteAccount": {
  	 	 	 	"button": {
- 	 	 	 	 	"trans": "계정 삭제",
+ 	 	 	 	 	"trans": "계정 삭제하기",
  	 	 	 	 	"eng": "Delete Account"
  	 	 	 	}
  	 	 	}
@@ -1713,7 +1713,7 @@
  	 	},
  	 	"deathScreen": {
  	 	 	"topTitleLeft": {
- 	 	 	 	"trans": "치명적 부상",
+ 	 	 	 	"trans": "치명적인 부상",
  	 	 	 	"eng": "fatal injury"
  	 	 	},
  	 	 	"topTitleRight": {
@@ -1725,7 +1725,7 @@
  	 	 	 	"eng": "Flatlined"
  	 	 	},
  	 	 	"subTitleSmall": {
- 	 	 	 	"trans": "치명적 오류: 신경 연결 끊김",
+ 	 	 	 	"trans": "치명적 오류: 신경 연결 ",
  	 	 	 	"eng": "Critical Error: Neural Link Disconnected"
  	 	 	},
  	 	 	"progressBarTitle": {
@@ -1749,16 +1749,16 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"amount"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "${amount} Bitcoin은 갱단 계정에 보증금을 예치 할 것입니다. 이것은 뒤집을 수 없습니다",
+ 	 	 	 	 	"trans": "${amount} Bitcoin은 갱 계좌에 입금되며, 이는 취소할 수 없습니다.",
  	 	 	 	 	"eng": "${amount} bitcoin will be deposit into your gang account, this cannot be reversed"
  	 	 	 	}
  	 	 	},
  	 	 	"deposit": {
- 	 	 	 	"trans": "비트 코인을 입금",
+ 	 	 	 	"trans": "비트 코인을 입금하기",
  	 	 	 	"eng": "Deposit Bitcoin"
  	 	 	},
  	 	 	"level": {
- 	 	 	 	"trans": "갱단 수준",
+ 	 	 	 	"trans": "갱 레벨",
  	 	 	 	"eng": "Gang Level"
  	 	 	},
  	 	 	"resource": {
@@ -1770,22 +1770,22 @@
  	 	 	 	"eng": "funding"
  	 	 	},
  	 	 	"memberCount": {
- 	 	 	 	"trans": "회원들",
+ 	 	 	 	"trans": "회원",
  	 	 	 	"eng": "members"
  	 	 	},
  	 	 	"nextUpkeepDate": {
  	 	 	 	"vars": [
  	 	 	 	 	"nextUpkeepDate"
  	 	 	 	],
- 	 	 	 	"trans": "다음 유지 시간 : ${nextUpkeepDate}",
+ 	 	 	 	"trans": "다음 유지 날짜 : ${nextUpkeepDate}",
  	 	 	 	"eng": "Next upkeep Date: ${nextUpkeepDate}"
  	 	 	},
  	 	 	"insufficientError": {
- 	 	 	 	"trans": "자원 중요",
+ 	 	 	 	"trans": "중요 자원",
  	 	 	 	"eng": "resource critical"
  	 	 	},
  	 	 	"insufficientFound": {
- 	 	 	 	"trans": "불충분 한 발견",
+ 	 	 	 	"trans": "자금이 충분하지 않습니다",
  	 	 	 	"eng": "Insufficient Funds"
  	 	 	},
  	 	 	"insufficientResource": {
@@ -1793,51 +1793,51 @@
  	 	 	 	"eng": "Insufficient Resources"
  	 	 	},
  	 	 	"members": {
- 	 	 	 	"trans": "회원들",
+ 	 	 	 	"trans": "회원",
  	 	 	 	"eng": "Members"
  	 	 	},
  	 	 	"editMotto": {
  	 	 	 	"modal": {
  	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "갱 모토를 입력하십시오",
+ 	 	 	 	 	 	"trans": "갱 좌우명을 입력하십시오",
  	 	 	 	 	 	"eng": "Please enter your gang motto"
  	 	 	 	 	}
  	 	 	 	},
  	 	 	 	"button": {
- 	 	 	 	 	"trans": "갱단 모토를 편집하십시오",
+ 	 	 	 	 	"trans": "갱단 좌우명을 편집하십시오",
  	 	 	 	 	"eng": "Edit Gang Motto"
  	 	 	 	}
  	 	 	},
  	 	 	"updateImage": {
  	 	 	 	"button": {
- 	 	 	 	 	"trans": "갱단 이미지 업데이트",
+ 	 	 	 	 	"trans": "갱 이미지 업데이트",
  	 	 	 	 	"eng": "Update Gang Image"
  	 	 	 	}
  	 	 	},
  	 	 	"occupationPoint": {
- 	 	 	 	"trans": "Shangri-La를 통제하십시오",
+ 	 	 	 	"trans": "샹그릴라를 지배하십시오",
  	 	 	 	"eng": "Control over Shangri-la"
  	 	 	},
  	 	 	"occupation": {
  	 	 	 	"noClan": {
- 	 	 	 	 	"trans": "갱단 이이 지역을 아직 점령하지 않았습니다",
+ 	 	 	 	 	"trans": "어떤 갱도 이 지역을 아직 점령하지 않았습니다",
  	 	 	 	 	"eng": "No gang has occupied this area yet"
  	 	 	 	}
  	 	 	}
  	 	},
  	 	"equipmentDisplay": {
  	 	 	"empty": {
- 	 	 	 	"trans": "비어있는",
+ 	 	 	 	"trans": "비어있음",
  	 	 	 	"eng": "Empty"
  	 	 	}
  	 	},
  	 	"fab": {
  	 	 	"dungeonList": {
- 	 	 	 	"trans": "지하 감옥 목록",
+ 	 	 	 	"trans": "던전 목록",
  	 	 	 	"eng": "Dungeon List"
  	 	 	},
  	 	 	"links": {
- 	 	 	 	"trans": "연결",
+ 	 	 	 	"trans": "커뮤니티 링크",
  	 	 	 	"eng": "links"
  	 	 	},
  	 	 	"premiumShop": {
@@ -1849,11 +1849,11 @@
  	 	 	 	"eng": "Friend List"
  	 	 	},
  	 	 	"leaderBoard": {
- 	 	 	 	"trans": "지도자위원회",
+ 	 	 	 	"trans": "리더보드",
  	 	 	 	"eng": "Leader Board"
  	 	 	},
  	 	 	"skipQueue": {
- 	 	 	 	"trans": "큐 건너 뛰기",
+ 	 	 	 	"trans": "대기열 스킵하기",
  	 	 	 	"eng": "Skip Queue"
  	 	 	},
  	 	 	"settings": {
@@ -1868,28 +1868,28 @@
  	 	"machineCrafting": {
  	 	 	"titleBox": {
  	 	 	 	"tile": {
- 	 	 	 	 	"trans": "시스템 유휴",
+ 	 	 	 	 	"trans": "시스템 비가동 중",
  	 	 	 	 	"eng": "system idle"
  	 	 	 	},
  	 	 	 	"subtitle": {
- 	 	 	 	 	"trans": "항목을 넣으십시오",
+ 	 	 	 	 	"trans": "아이템을 넣으십시오",
  	 	 	 	 	"eng": "Please inset an item"
  	 	 	 	}
  	 	 	},
  	 	 	"selectItemButton": {
- 	 	 	 	"trans": "항목을 재활용하십시오",
+ 	 	 	 	"trans": "아이템 재활용하기",
  	 	 	 	"eng": "Recycle Item"
  	 	 	},
  	 	 	"selectAmount": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "금액을 선택하십시오",
+ 	 	 	 	 	"trans": "양을 정하십시오",
  	 	 	 	 	"eng": "Please select amount"
  	 	 	 	},
  	 	 	 	"subtitle": {
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"timeStr"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "이것은 ${timeStr}이 걸릴 것입니다",
+ 	 	 	 	 	"trans": "이것은 ${timeStr} 걸립니다",
  	 	 	 	 	"eng": "This will take ${timeStr}"
  	 	 	 	}
  	 	 	}
@@ -1897,11 +1897,11 @@
  	 	"modal": {
  	 	 	"upgradeFailed": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "오류",
+ 	 	 	 	 	"trans": "에러",
  	 	 	 	 	"eng": "Error"
  	 	 	 	},
  	 	 	 	"subtitle": {
- 	 	 	 	 	"trans": "파괴적인 실패가 발생했습니다",
+ 	 	 	 	 	"trans": "치명적인 실패가 발생했습니다",
  	 	 	 	 	"eng": "Destructive failure accrued"
  	 	 	 	}
  	 	 	},
@@ -1911,17 +1911,17 @@
  	 	 	 	 	"eng": "Calibration Success"
  	 	 	 	},
  	 	 	 	"subtitle": {
- 	 	 	 	 	"trans": "오류가 감지되지 않습니다",
+ 	 	 	 	 	"trans": "에러가 감지되지 않았습니다",
  	 	 	 	 	"eng": "No error detected"
  	 	 	 	}
  	 	 	},
  	 	 	"leaveDungeon": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "이 던전을 떠나고 싶습니까?",
+ 	 	 	 	 	"trans": "이 던전을 떠나는 것이 확실합니까?",
  	 	 	 	 	"eng": "Are you sure you want to leave this dungeon?"
  	 	 	 	},
  	 	 	 	"subtitle": {
- 	 	 	 	 	"trans": "이 던전 인스턴스를 다시 입력 할 수 없습니다",
+ 	 	 	 	 	"trans": "같은 던전에 다시 입장하는 것은 불가능합니다.",
  	 	 	 	 	"eng": "You will not be able to enter this dungeon instance again"
  	 	 	 	}
  	 	 	}
@@ -1933,21 +1933,21 @@
  	 	 	 	 	"eng": "Core not found"
  	 	 	 	},
  	 	 	 	"subTitle": {
- 	 	 	 	 	"trans": "보정 코어를 삽입하십시오",
+ 	 	 	 	 	"trans": "교정 코어 삽입하십시오",
  	 	 	 	 	"eng": "Please insert Calibration Core"
  	 	 	 	}
  	 	 	},
  	 	 	"activate": {
- 	 	 	 	"trans": "코어 삽입",
+ 	 	 	 	"trans": "코어 삽입하기",
  	 	 	 	"eng": "Insert Core"
  	 	 	},
  	 	 	"activating": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "처리",
+ 	 	 	 	 	"trans": "처리 중",
  	 	 	 	 	"eng": "Processing"
  	 	 	 	},
  	 	 	 	"subTitle": {
- 	 	 	 	 	"trans": "샤드 해독",
+ 	 	 	 	 	"trans": "조각 해독하기",
  	 	 	 	 	"eng": "Decrypting shard"
  	 	 	 	}
  	 	 	},
@@ -1967,26 +1967,26 @@
  	 	 	 	 	"eng": "Compatible Item Identified"
  	 	 	 	},
  	 	 	 	"subTitle": {
- 	 	 	 	 	"trans": "모든 시스템 준비가되었습니다",
+ 	 	 	 	 	"trans": "모든 시스템이 준비가되었습니다",
  	 	 	 	 	"eng": "All system ready"
  	 	 	 	}
  	 	 	},
  	 	 	"failureRate": {
- 	 	 	 	"trans": "파괴적인 실패의 가능성",
+ 	 	 	 	"trans": "치명적인 실패의 가능성",
  	 	 	 	"eng": "Chance of destructive failure"
  	 	 	},
  	 	 	"selectEquipmentTitle": {
- 	 	 	 	"trans": "보정 할 항목을 선택하십시오",
+ 	 	 	 	"trans": "교정 할 아이템을 선택하십시오",
  	 	 	 	"eng": "Please select an item to calibrate"
  	 	 	},
  	 	 	"upgradeButton": {
- 	 	 	 	"trans": "캘리브램",
+ 	 	 	 	"trans": "교정하기",
  	 	 	 	"eng": "Calibrate"
  	 	 	}
  	 	},
  	 	"itemInbox": {
  	 	 	"getAllItems": {
- 	 	 	 	"trans": "모든 항목을 얻으십시오",
+ 	 	 	 	"trans": "모든 아이템을 얻으십시오",
  	 	 	 	"eng": "Get All Items"
  	 	 	},
  	 	 	"expireDate": {
@@ -2009,21 +2009,21 @@
  	 	 	 	"eng": "Equipment Cache not found"
  	 	 	},
  	 	 	"subTitle": {
- 	 	 	 	"trans": "새로운 무기와 갑옷을 인쇄하기 위해 적과 던전에서 캐시를 모으십시오",
+ 	 	 	 	"trans": "새로운 무기와 갑옷을 프린트하기 위해 적과 던전에서 캐시를 모으십시오",
  	 	 	 	"eng": "gather the caches from enemies and dungeons to print your new weapons and armor"
  	 	 	}
  	 	},
  	 	"bank": {
  	 	 	"balance": {
- 	 	 	 	"trans": "균형",
+ 	 	 	 	"trans": "잔고",
  	 	 	 	"eng": "balance"
  	 	 	},
  	 	 	"deposit": {
- 	 	 	 	"trans": "보증금",
+ 	 	 	 	"trans": "예금하기",
  	 	 	 	"eng": "Deposit"
  	 	 	},
  	 	 	"withdraw": {
- 	 	 	 	"trans": "철회하다",
+ 	 	 	 	"trans": "인출하기",
  	 	 	 	"eng": "Withdraw"
  	 	 	},
  	 	 	"upgradeSlot": {
@@ -2034,11 +2034,11 @@
  	 	 	 	"eng": "UPGRADE TO ${upgradeToSlot} SLOTS"
  	 	 	},
  	 	 	"takeItemFromVault": {
- 	 	 	 	"trans": "항목을 인출하십시오",
+ 	 	 	 	"trans": "아이템을 인출하기",
  	 	 	 	"eng": "Withdraw Item"
  	 	 	},
  	 	 	"putItemToVault": {
- 	 	 	 	"trans": "입금 항목",
+ 	 	 	 	"trans": "아이템을 입금하기",
  	 	 	 	"eng": "Deposit Item"
  	 	 	},
  	 	 	"modal": {
@@ -2052,85 +2052,85 @@
  	 	 	 	}
  	 	 	},
  	 	 	"noBalance": {
- 	 	 	 	"trans": "균형이 없을 때 철회 할 수 없습니다.",
+ 	 	 	 	"trans": "잔고가 없을 때 인출 할 수 없습니다.",
  	 	 	 	"eng": "You can't withdraw when you have no balance."
  	 	 	},
  	 	 	"depositDesc": {
- 	 	 	 	"trans": "Bitcoins를 은행에 넣으십시오",
+ 	 	 	 	"trans": "비트코인을 은행에 맡기기",
  	 	 	 	"eng": "Put Bitcoins into bank"
  	 	 	},
  	 	 	"withdrawDesc": {
- 	 	 	 	"trans": "Bitcoins를 은행에서 가져 가라",
+ 	 	 	 	"trans": "비트코인을 은행에서 꺼내기",
  	 	 	 	"eng": "Take Bitcoins out of bank"
  	 	 	},
  	 	 	"putItemToVaultDesc": {
- 	 	 	 	"trans": "물건을 당신의 금고에 넣으십시오",
+ 	 	 	 	"trans": "아이템을 개인 볼트에 넣기",
  	 	 	 	"eng": "Put items into your vault"
  	 	 	},
  	 	 	"takeItemFromVaultDesc": {
- 	 	 	 	"trans": "금고에서 물건을 가져 가라",
+ 	 	 	 	"trans": "아이템을 개인 볼트에서 빼기",
  	 	 	 	"eng": "Take items out from your vault"
  	 	 	},
  	 	 	"upgradeSlotDesc": {
  	 	 	 	"vars": [
  	 	 	 	 	"upgradeToSlot"
  	 	 	 	],
- 	 	 	 	"trans": "Vault에 ${upgradeToSlot}에 저장할 수있는 항목의 최대 양을 늘리십시오",
+ 	 	 	 	"trans": "볼트에 저장할 수있는 아이템의 수를 ${upgradeToSlot}만큼 늘리십시오",
  	 	 	 	"eng": "Increase the max amount of items you can store in vault to ${upgradeToSlot}"
  	 	 	}
  	 	},
  	 	"generalCaptcha": {
  	 	 	"story": {
- 	 	 	 	"trans": "오래된 잠긴 안전 상자를 발견했는데, 일부 텍스트가 쓰여진 텍스트가있는 것처럼 보입니다.",
+ 	 	 	 	"trans": "오래된 잠겨있는 금고를 발견했는데, 글이 적혀있는 포스트 잇이 붙어있는 것 같습니다.",
  	 	 	 	"eng": "You found an old locked safe box, there seems like a post-it with some text written on it."
  	 	 	},
  	 	 	"title": {
- 	 	 	 	"trans": "잠금 해제에 필요한 핀 코드",
+ 	 	 	 	"trans": "잠금 해제에 필요한 PIN",
  	 	 	 	"eng": "Pin code required to unlock"
  	 	 	},
  	 	 	"inputLabel": {
- 	 	 	 	"trans": "핀 코드",
+ 	 	 	 	"trans": "PIN",
  	 	 	 	"eng": "Pin Code"
  	 	 	},
  	 	 	"inputPlaceholder": {
- 	 	 	 	"trans": "PIN 코드를 입력하십시오",
+ 	 	 	 	"trans": "PIN을 입력하십시오",
  	 	 	 	"eng": "Enter pin code"
  	 	 	}
  	 	},
  	 	"list": {
  	 	 	"longPressToMultiSelect": {
- 	 	 	 	"trans": "멀티 선택을 위해 길게 누릅니다",
+ 	 	 	 	"trans": "다중 선택을 위해 길게 누릅니다",
  	 	 	 	"eng": "Long press to multi-select"
  	 	 	}
  	 	},
  	 	"inventory": {
  	 	 	"items": {
- 	 	 	 	"trans": "항목",
+ 	 	 	 	"trans": "아이템",
  	 	 	 	"eng": "items"
  	 	 	},
  	 	 	"secretKeys": {
- 	 	 	 	"trans": "비밀 키",
+ 	 	 	 	"trans": "열쇠",
  	 	 	 	"eng": "secret keys"
  	 	 	},
  	 	 	"equipped": {
- 	 	 	 	"trans": "갖추어 준",
+ 	 	 	 	"trans": "장착중인 아이템",
  	 	 	 	"eng": "Equipped"
  	 	 	},
  	 	 	"inventory": {
- 	 	 	 	"trans": "목록",
+ 	 	 	 	"trans": "인벤토리",
  	 	 	 	"eng": "Inventory"
  	 	 	},
  	 	 	"itemInbox": {
- 	 	 	 	"trans": "항목받은 편지함",
+ 	 	 	 	"trans": "받은 아이템",
  	 	 	 	"eng": "Item Inbox"
  	 	 	},
  	 	 	"crafting": {
- 	 	 	 	"trans": "제작",
+ 	 	 	 	"trans": "제작하기",
  	 	 	 	"eng": "Crafting"
  	 	 	},
  	 	 	"autoScrap": {
  	 	 	 	"button": {
- 	 	 	 	 	"trans": "자동차 스크랩",
+ 	 	 	 	 	"trans": "자동 폐기",
  	 	 	 	 	"eng": "Auto Scrap"
  	 	 	 	}
  	 	 	}
@@ -2142,76 +2142,76 @@
  	 	 	 	 	"eng": "Malfunctioned"
  	 	 	 	},
  	 	 	 	"subtitle": {
- 	 	 	 	 	"trans": "광범위한 수리가 필요합니다",
+ 	 	 	 	 	"trans": "대대적인 수리가 필요합니다",
  	 	 	 	 	"eng": "Extensive repair required"
  	 	 	 	},
  	 	 	 	"instruction": {
- 	 	 	 	 	"trans": "이 항목은 고장 났으며, 수리를 위해 무기 스미스에 가져 오십시오",
+ 	 	 	 	 	"trans": "이 아이템은 고장 났으며, 수리를 위해 무기 대장장이에게 가져 가십시오",
  	 	 	 	 	"eng": "This item is broken, bring it to Weapon Smith for repair"
  	 	 	 	}
  	 	 	},
  	 	 	"areaEffect": {
- 	 	 	 	"trans": "[AoE] 효과 영역,이 항목의 효과는 당신과의 동맹국을 적용 할 것입니다.",
+ 	 	 	 	"trans": "[AoE] 효과의 범위, 이 아이템의 효과는 당신과 함께 싸우고 있는 동료들에게 적용됩니다.",
  	 	 	 	"eng": "[AOE] Area of Effect, the effect of this item will apply allies in combat with you."
  	 	 	},
  	 	 	"equip": {
- 	 	 	 	"trans": "갖추어 주다",
+ 	 	 	 	"trans": "장착하기",
  	 	 	 	"eng": "Equip"
  	 	 	},
  	 	 	"unequip": {
- 	 	 	 	"trans": "불명확 한",
+ 	 	 	 	"trans": "장착해제",
  	 	 	 	"eng": "Unequip"
  	 	 	},
  	 	 	"use": {
- 	 	 	 	"trans": "사용하다",
+ 	 	 	 	"trans": "사용하기",
  	 	 	 	"eng": "Use"
  	 	 	},
  	 	 	"unlock": {
- 	 	 	 	"trans": "터놓다",
+ 	 	 	 	"trans": "잠금해제",
  	 	 	 	"eng": "Unlock"
  	 	 	},
  	 	 	"lock": {
- 	 	 	 	"trans": "자물쇠",
+ 	 	 	 	"trans": "잠금",
  	 	 	 	"eng": "Lock"
  	 	 	}
  	 	},
  	 	"secretKey": {
  	 	 	"title": {
- 	 	 	 	"trans": "비밀 키",
+ 	 	 	 	"trans": "열쇠",
  	 	 	 	"eng": "Secret Keys"
  	 	 	},
  	 	 	"noKeysTitle": {
- 	 	 	 	"trans": "비밀 키가 없어요",
+ 	 	 	 	"trans": "열쇠가 아무것도 없습니다",
  	 	 	 	"eng": "You don't have any secret keys"
  	 	 	},
  	 	 	"noKeysSubtitle": {
- 	 	 	 	"trans": "던전에서 비밀 키를 얻을 수 있습니다",
+ 	 	 	 	"trans": "던전에서 열쇠를 얻을 수 있습니다",
  	 	 	 	"eng": "You can obtain secret keys from Dungeons"
  	 	 	}
  	 	},
  	 	"npc": {
  	 	 	"notUnlocked": {
- 	 	 	 	"trans": "이것은 아직 잠금 해제되지 않고 캐릭터를 수준으로 시도해보십시오",
+ 	 	 	 	"trans": "이것은 아직 잠금 해제되지 않았습니다. 당신의 캐릭터를 성장시켜보세요.",
  	 	 	 	"eng": "This is not unlocked yet, try leveling up your character"
  	 	 	},
  	 	 	"repairItems": {
  	 	 	 	"vars": [
  	 	 	 	 	"repairFee"
  	 	 	 	],
- 	 	 	 	"trans": "모든 항목 복구 (${repairFee} Bitcoin)",
+ 	 	 	 	"trans": "(${repairFee} Bitcoin)(으)로 모든 아이템 수리하기",
  	 	 	 	"eng": " Repair all items for (${repairFee} Bitcoin)"
  	 	 	}
  	 	},
  	 	"travel": {
  	 	 	"notUnlocked": {
- 	 	 	 	"trans": "이 지역을 아직 잠금 해제하지 않았습니다",
+ 	 	 	 	"trans": "이 영역을 아직 잠금 해제하지 않았습니다",
  	 	 	 	"eng": "You have not unlocked this area yet"
  	 	 	}
  	 	},
  	 	"itemDetails": {
  	 	 	"factoryReset": {
  	 	 	 	"confirmation": {
- 	 	 	 	 	"trans": "이렇게하면 모든 보정이 모든 보정이 재설정됩니다. \n       진행하고 싶습니까?",
+ 	 	 	 	 	"trans": "이는 당신의 아이템에 적용한 모든 교정이 리셋됩니다. 또한 장비를 다시 거래할 수 있게 합니다. \n       진행하겠습니까?",
  	 	 	 	 	"eng": "Doing this will reset all calibration on your item. It will also make it tradable again. \n      Are you sure you want to proceed?"
  	 	 	 	},
  	 	 	 	"trans": "공장 초기화",
@@ -2224,13 +2224,13 @@
  	 	 	 	"eng": "Daily Reward"
  	 	 	},
  	 	 	"coupon": {
- 	 	 	 	"trans": "청구 쿠폰",
+ 	 	 	 	"trans": "쿠폰 적용하기",
  	 	 	 	"eng": "Claim Coupon"
  	 	 	}
  	 	},
  	 	"gang": {
  	 	 	"confirmKickMember": {
- 	 	 	 	"trans": "당신은 당신의 갱 에서이 플레이어를 걷어차시겠습니까?",
+ 	 	 	 	"trans": "이 플레이어를 당신의 갱에서 강퇴하고 싶은 것이 확실합니까?",
  	 	 	 	"eng": "are you sure you want to kick this player from your gang?"
  	 	 	},
  	 	 	"memberContribution": {
@@ -2245,7 +2245,7 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"occupationContribution"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "${occupationContribution} 직업 포인트",
+ 	 	 	 	 	"trans": "${occupationContribution} 점령 포인트",
  	 	 	 	 	"eng": "${occupationContribution} occupation point"
  	 	 	 	},
  	 	 	 	"fund": {
@@ -2270,7 +2270,7 @@
  	 	 	 	"eng": "Coupon"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "우리 이벤트 중 하나에서 쿠폰이있는 경우 여기에서 그것을 주장 할 수 있습니다.",
+ 	 	 	 	"trans": "우리의 이벤트에서 쿠폰을 받았을 경우, 이곳에서 적용할 수 있습니다.",
  	 	 	 	"eng": "If you have a coupon from one of our events, you can claim it here."
  	 	 	},
  	 	 	"placeholder": {
@@ -2278,7 +2278,7 @@
  	 	 	 	"eng": "Paste or enter your coupon here"
  	 	 	},
  	 	 	"confirm": {
- 	 	 	 	"trans": "쿠폰을 활성화하십시오",
+ 	 	 	 	"trans": "쿠폰을 활성화하기",
  	 	 	 	"eng": "Activate Coupon"
  	 	 	}
  	 	},
@@ -2292,11 +2292,11 @@
  	 	 	 	"eng": "Available"
  	 	 	},
  	 	 	"claimed": {
- 	 	 	 	"trans": "주장",
+ 	 	 	 	"trans": "이미 사용됨",
  	 	 	 	"eng": "Claimed"
  	 	 	},
  	 	 	"cantClaimYet": {
- 	 	 	 	"trans": "잠긴다",
+ 	 	 	 	"trans": "잠김",
  	 	 	 	"eng": "Locked"
  	 	 	},
  	 	 	"nextLoginWindow": {
@@ -2306,11 +2306,11 @@
  	 	},
  	 	"shop": {
  	 	 	"purchase": {
- 	 	 	 	"trans": "구입",
+ 	 	 	 	"trans": "구입하기",
  	 	 	 	"eng": "purchase"
  	 	 	},
  	 	 	"sell": {
- 	 	 	 	"trans": "팔다",
+ 	 	 	 	"trans": "팔기",
  	 	 	 	"eng": "sell"
  	 	 	}
  	 	},
@@ -2318,7 +2318,7 @@
  	 	 	"deleteAccount": {
  	 	 	 	"modal": {
  	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "계정을 삭제 하시겠습니까? 이것은 돌이킬 수 없으며 모든 정보가 제거됩니다.",
+ 	 	 	 	 	 	"trans": "계정을 삭제 하시겠습니까? 이것은 돌이킬 수 없으며 계정의 모든 정보가 제거됩니다.",
  	 	 	 	 	 	"eng": "Are you sure you want to delete your account? This is irreversible, all account information will be removed."
  	 	 	 	 	}
  	 	 	 	}
@@ -2326,7 +2326,7 @@
  	 	},
  	 	"job": {
  	 	 	"cantEnterError": {
- 	 	 	 	"trans": "작업 허브에 액세스하려면 최소한 레벨 2가 필요합니다",
+ 	 	 	 	"trans": "직업 허브는 레벨 2부터 이용 가능합니다.",
  	 	 	 	"eng": "You need to be at least level 2 to access the job hub"
  	 	 	}
  	 	},
@@ -2336,31 +2336,31 @@
  	 	 	 	"eng": "Cyberpunk Text-based MMORPG"
  	 	 	},
  	 	 	"description1": {
- 	 	 	 	"trans": "온라인 Cybercode 온라인 게임은 게임 데이터를 저장하기 위해 계정이 필요합니다.",
+ 	 	 	 	"trans": "CyberCode Online은 온라인 게임으로, 게임 데이터를 저장하기 위해 계정이 필요합니다.",
  	 	 	 	"eng": "CyberCode Online is an online game, an account is needed to store game data."
  	 	 	},
  	 	 	"description2": {
- 	 	 	 	"trans": "기존 계정으로 등록하거나 로그인하십시오",
+ 	 	 	 	"trans": "계정을 등록하거나 기존 계정으로 로그인하십시오",
  	 	 	 	"eng": "please register or login with existing account"
  	 	 	}
  	 	},
  	 	"login": {
  	 	 	"loginButton": {
- 	 	 	 	"trans": "로그인",
+ 	 	 	 	"trans": "로그인하기",
  	 	 	 	"eng": "Login"
  	 	 	},
  	 	 	"forgotPassword": {
- 	 	 	 	"trans": "비밀번호를 잊으 셨나요?",
+ 	 	 	 	"trans": "비밀번호를 잊으셨나요?",
  	 	 	 	"eng": "Forgot Password?"
  	 	 	},
  	 	 	"registerPageButton": {
- 	 	 	 	"trans": "등록하다?",
+ 	 	 	 	"trans": "계정을 만듭니까?",
  	 	 	 	"eng": "Create Account?"
  	 	 	}
  	 	},
  	 	"register": {
  	 	 	"registerButton": {
- 	 	 	 	"trans": "등록하다",
+ 	 	 	 	"trans": "계정 만들기",
  	 	 	 	"eng": "Create Account"
  	 	 	},
  	 	 	"loginPageButton": {
@@ -2370,7 +2370,7 @@
  	 	},
  	 	"basicInfo": {
  	 	 	"emptyError": {
- 	 	 	 	"trans": "계속하려면 문자 이름을 입력하십시오.",
+ 	 	 	 	"trans": "계속하려면 캐릭터 이름을 입력하십시오.",
  	 	 	 	"eng": "Please enter your character name to continue."
  	 	 	},
  	 	 	"playerNameInput": {
@@ -2379,7 +2379,7 @@
  	 	 	 	 	"eng": "Character Name"
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "공격적이거나 부적절한 이름을 사용하면 음소거됩니다.",
+ 	 	 	 	 	"trans": "공격적이거나 부적절한 이름을 사용하면 채팅을 이용할 수 없습니다.",
  	 	 	 	 	"eng": "you will be muted if you use an offensive or inappropriate name."
  	 	 	 	}
  	 	 	}
@@ -2391,11 +2391,11 @@
  	 	 	 	 	 	"timeSkipMinutes",
  	 	 	 	 	 	"timeSkipCost"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "글로벌 건너 뛰기 (${timeSkipMinutes} 최소, 비용 ${timeSkipCost} 단위)",
+ 	 	 	 	 	"trans": "글로벌 스킵 최소 (${timeSkipMinutes}, ${timeSkipCost} Units)의 비용이 듭니다.",
  	 	 	 	 	"eng": "Global Skip (${timeSkipMinutes} Min, Cost ${timeSkipCost} Units)"
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "글로벌 건너 뛰기를 통해 AFK 대기 시간을 건너 뛰고 즉시 완성 할 수 있습니다. \n     이 효과는 AFK 작업을 수행하는 모든 플레이어에 적용됩니다",
+ 	 	 	 	 	"trans": "글로벌 스킵을 통해 비접속 대기 시간을 스킵하고 즉시 끝낼 수 있습니다. \n     이 효과는 비접속 작업을 수행하는 모든 플레이어에게 적용됩니다",
  	 	 	 	 	"eng": "Global Skip allow you to skip the AFK waiting time, and finish it instantly.\n    this effect will be applied to all player performing AFK task"
  	 	 	 	}
  	 	 	},
@@ -2404,7 +2404,7 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"itemSkipMinutes"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "자유 시간 건너 뛰기 (${itemSkipMinutes} 분)",
+ 	 	 	 	 	"trans": "자유 시간 (${itemSkipMinutes} Min) 스킵하기 ",
  	 	 	 	 	"eng": "Free time skip (${itemSkipMinutes} Min)"
  	 	 	 	},
  	 	 	 	"description": {
@@ -2412,75 +2412,75 @@
  	 	 	 	 	 	"timeSkipItemName",
  	 	 	 	 	 	"itemSkipMinutes"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "${timeSkipItemName}을 사용하여 ${itemSkipMinutes}을 건너 뜁니다",
+ 	 	 	 	 	"trans": "당신의 ${timeSkipItemName} 중 하나를 사용하여 ${itemSkipMinutes}을(를) 스킵합니다",
  	 	 	 	 	"eng": "Use one of your ${timeSkipItemName} to skip ${itemSkipMinutes} minutes"
  	 	 	 	}
  	 	 	},
  	 	 	"inProgressBox": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "글로벌 건너 뛰기 진행 중",
+ 	 	 	 	 	"trans": "글로벌 스킵 진행 중",
  	 	 	 	 	"eng": "Global Skip in progress"
  	 	 	 	},
  	 	 	 	"subtitle": {
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"skippingPlayerCount"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "${skippingPlayerCount} 사용자 가속화 ..",
+ 	 	 	 	 	"trans": "사용자 ${skippingPlayerCount}명 가속화..",
  	 	 	 	 	"eng": "Accelerating ${skippingPlayerCount} users.."
  	 	 	 	}
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "글로벌 건너 뛰기를 통해 AFK 대기 시간을 건너 뛰고 즉시 완성 할 수 있습니다. \n     이 효과는 AFK 작업을 수행하는 모든 플레이어에 적용됩니다",
+ 	 	 	 	"trans": "글로벌 스킵을 통해 비접속 대기 시간을 스킵하고 즉시 끝낼 수 있습니다. \n     이 효과는 비접속 작업을 수행하는 모든 플레이어에게 적용됩니다",
  	 	 	 	"eng": "Global Skip allow you to skip the AFK waiting time, and finish it instantly.\n    this effect will be applied to all players performing an AFK task"
  	 	 	},
  	 	 	"confirmModal": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "사용을 확인하십시오 스킵?",
+ 	 	 	 	 	"trans": "스킵하기를 사용하시겠습니까?",
  	 	 	 	 	"eng": "Confirm use skip?"
  	 	 	 	},
  	 	 	 	"subtitle": {
- 	 	 	 	 	"trans": "글로벌 건너 뛰기는 모든 플레이어가 AFK 작업을 수행하는 대기 시간을 건너 뜁니다",
+ 	 	 	 	 	"trans": "글로벌 스킵은 모든 플레이어가 비접속 작업을 수행하는 대기 시간을 스킵합니다",
  	 	 	 	 	"eng": "Global Skip will skip the waiting time for all players performing AFK task"
  	 	 	 	}
  	 	 	}
  	 	},
  	 	"afkTask": {
  	 	 	"abort": {
- 	 	 	 	"trans": "중독",
+ 	 	 	 	"trans": "중단하기",
  	 	 	 	"eng": "Abort"
  	 	 	},
  	 	 	"newbieTip": {
- 	 	 	 	"trans": "게임을 닫으라도 작업이 계속됩니다",
+ 	 	 	 	"trans": "게임을 닫아도 작업이 계속됩니다",
  	 	 	 	"eng": "The task will continue even if you close the game"
  	 	 	},
  	 	 	"abortWarning": {
- 	 	 	 	"trans": "이것을 중단함으로써 당신은 보상을 받고 사용 된 자료를 받았습니다",
+ 	 	 	 	"trans": "이것을 중단함으로써 당신은 어떤 보상도 받지 못 하고 사용된 자원은 돌려받을 수 없습니다",
  	 	 	 	"eng": "By aborting this you won\\'t receive any reward and the material used won\\'t be returned"
  	 	 	}
  	 	},
  	 	"quest": {
  	 	 	"globalQuest": {
  	 	 	 	"progressTitle": {
- 	 	 	 	 	"trans": "SL 데이터 요새 침해",
+ 	 	 	 	 	"trans": "SL 데이터 요새 침입",
  	 	 	 	 	"eng": "SL-Data Fortress Breach"
  	 	 	 	},
  	 	 	 	"infoBox": {
  	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "사이버 공간 해킹 진행중인",
+ 	 	 	 	 	 	"trans": "사이버 공간 해킹 진행중",
  	 	 	 	 	 	"eng": "Cyberspace hacking in progress"
  	 	 	 	 	},
  	 	 	 	 	"subtitle": {
- 	 	 	 	 	 	"trans": "다른 NetRunners와 함께 Force에 가입하여 SL 데이터 요새를 위반하여 모든 플레이어가 버프를 부여합니다",
+ 	 	 	 	 	 	"trans": "다른 NetRunner들과 함께 단체에 가입하여 SL 데이터 요새를 침해하여 모든 플레이어에게 버프를 부여합니다",
  	 	 	 	 	 	"eng": "Join forces with other Netrunners to breach the SL-Data Fortress to grant all players with buff"
  	 	 	 	 	}
  	 	 	 	},
  	 	 	 	"completeBox": {
  	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "위반 작업이 완료되었습니다",
+ 	 	 	 	 	 	"trans": "침입 작업 완수",
  	 	 	 	 	 	"eng": "Breach operation completed"
  	 	 	 	 	},
  	 	 	 	 	"subtitle": {
- 	 	 	 	 	 	"trans": "원격 익스플로잇 배포, 잠시 기다려주십시오 ...",
+ 	 	 	 	 	 	"trans": "원격 익스플로잇 배치중, 잠시 기다려주십시오 ...",
  	 	 	 	 	 	"eng": "Remote exploit deploying, please wait..."
  	 	 	 	 	}
  	 	 	 	}
@@ -2490,19 +2490,19 @@
  	 	 	"attackButton": {
  	 	 	 	"primary": {
  	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "일 순위",
+ 	 	 	 	 	 	"trans": "기본",
  	 	 	 	 	 	"eng": "primary"
  	 	 	 	 	}
  	 	 	 	},
  	 	 	 	"secondary": {
  	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "특별한",
+ 	 	 	 	 	 	"trans": "특수",
  	 	 	 	 	 	"eng": "special"
  	 	 	 	 	}
  	 	 	 	},
  	 	 	 	"tertiary": {
  	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "파괴.",
+ 	 	 	 	 	 	"trans": "살상.",
  	 	 	 	 	 	"eng": "Destruct."
  	 	 	 	 	}
  	 	 	 	}
@@ -2510,21 +2510,21 @@
  	 	},
  	 	"backToPreviusLoc": {
  	 	 	"longPressBackToCity": {
- 	 	 	 	"trans": "긴 언론을 눌러 도시로 돌아 가기",
+ 	 	 	 	"trans": "길게 눌러서 도시로 돌아가기",
  	 	 	 	"eng": "Long press to go back to city"
  	 	 	}
  	 	},
  	 	"dungeon": {
  	 	 	"public": {
- 	 	 	 	"trans": "공중 던전",
+ 	 	 	 	"trans": "공공 던전",
  	 	 	 	"eng": "Public dungeon"
  	 	 	},
  	 	 	"password": {
- 	 	 	 	"trans": "암호로 보호 된 지하 감옥",
+ 	 	 	 	"trans": "암호를 설정한 던전",
  	 	 	 	"eng": "Password protected dungeon"
  	 	 	},
  	 	 	"enterDungeon": {
- 	 	 	 	"trans": "던전을 입력하십시오",
+ 	 	 	 	"trans": "던전에 입장하기",
  	 	 	 	"eng": "Enter Dungeon"
  	 	 	},
  	 	 	"listButton": {
@@ -2533,40 +2533,40 @@
  	 	 	 	 	"eng": "Dungeons"
  	 	 	 	},
  	 	 	 	"des": {
- 	 	 	 	 	"trans": "지하 감옥에서는 각 싸움 후에 치유되지 않고 적은 더 강하지 만 더욱 특급이 더 많습니다",
+ 	 	 	 	 	"trans": "던전에서는 전투 후에 체력이 회복되지 않고 적은 더 강하지만, 경험치와 아이템이 더 많습니다.",
  	 	 	 	 	"eng": "In dungeons, you will not heal after each fight, and enemies are stronger, but there are more exp and loots"
  	 	 	 	}
  	 	 	},
  	 	 	"noHealingPrompt": {
- 	 	 	 	"trans": "아마 처음으로 치유 항목을 구입할 수 있을까요?",
+ 	 	 	 	"trans": "먼저 회복 아이템을 좀 사는 게 어떨까요?",
  	 	 	 	"eng": "Maybe buy some healing item first?",
  	 	 	 	"des": {
- 	 	 	 	 	"trans": "던전에 전투를 마친 후 던전을하지 않기 때문에 던전을 시작하기 때문에 던전을 시작하기 전에 도시에서 Tronoky Mart에서 Trinoky Mart에서 구입하는 것처럼 보입니다",
+ 	 	 	 	 	"trans": "통증 킬러가 하나도 없는 것 같은데, 던전에 입장하기 전 도시의 트리노키 마트에서 구매하세요. 던전에서는 전투 후 체력이 회복되지 않으니까요. ",
  	 	 	 	 	"eng": "Seems like you dont have any Pain Away with you, purchase it from Trinoky Mart in the city first before entering dungeons, since you will not regen after battles in dungeon"
  	 	 	 	},
  	 	 	 	"cancel": {
- 	 	 	 	 	"trans": "나중",
+ 	 	 	 	 	"trans": "나중에 다시 하기",
  	 	 	 	 	"eng": "Later"
  	 	 	 	},
  	 	 	 	"confirm": {
- 	 	 	 	 	"trans": "도시로 돌아 가기",
+ 	 	 	 	 	"trans": "도시로 돌아가기",
  	 	 	 	 	"eng": "Back to city"
  	 	 	 	}
  	 	 	}
  	 	},
  	 	"combat": {
  	 	 	"enemyIsDeadTitle": {
- 	 	 	 	"trans": "여기 아무것도 찾지 못했습니다",
+ 	 	 	 	"trans": "이곳에는 아무것도 없었습니다",
  	 	 	 	"eng": "You found nothing here"
  	 	 	}
  	 	},
  	 	"dungeonLobby": {
  	 	 	"noDungeon": {
- 	 	 	 	"trans": "현재 공개 지하 감옥이 없습니다",
+ 	 	 	 	"trans": "현재 공공 던전이 없습니다.",
  	 	 	 	"eng": "There is currently no public dungeon"
  	 	 	},
  	 	 	"showCanJoinOnly": {
- 	 	 	 	"trans": "내가 가입 할 수있는 지하 감옥 만 보여줍니다",
+ 	 	 	 	"trans": "내가 참여할 수 있는 던전만 보기",
  	 	 	 	"eng": "Only show dungeons I can join"
  	 	 	}
  	 	},
@@ -2577,14 +2577,14 @@
  	 	 	 	 	"eng": "Nearby Enemies"
  	 	 	 	},
  	 	 	 	"desc": {
- 	 	 	 	 	"trans": "거리에서 근처의 적을 스캔하는 것은 던전 밖의 적들이 약하고 패배하기가 더 쉽습니다. 그러나 그들은 또한 적은 특급을 떨어 뜨린다",
+ 	 	 	 	 	"trans": "거리에서 근처의 적을 스캔합니다. 던전 밖의 적들은 더 약하고 쓰러뜨리기 쉽습니다. 그러나 그들은 더 적은 경험치를 줍니다",
  	 	 	 	 	"eng": "Scans for nearby enemies on the street, enemies outside dungeons are weaker and easier to defeat. However they also drop less exp"
  	 	 	 	}
  	 	 	}
  	 	},
  	 	"playerStatus": {
  	 	 	"occupiedBy": {
- 	 	 	 	"trans": "에 의해 점유되는",
+ 	 	 	 	"trans": "지배중인 갱:",
  	 	 	 	"eng": "Occupied by"
  	 	 	}
  	 	}
@@ -2603,35 +2603,35 @@
  	 	 	"eng": "Tag"
  	 	},
  	 	"donate": {
- 	 	 	"trans": "기부",
+ 	 	 	"trans": "기부하기",
  	 	 	"eng": "Donate"
  	 	},
  	 	"noSecretKey": {
- 	 	 	"trans": " 비밀 열쇠 없음",
+ 	 	 	"trans": "열쇠 없음",
  	 	 	"eng": " No secret key"
  	 	},
  	 	"globalEffects": {
- 	 	 	"trans": "전역 효과",
+ 	 	 	"trans": "글로벌 효과",
  	 	 	"eng": "Global Effects"
  	 	},
  	 	"confirm": {
- 	 	 	"trans": "확인",
+ 	 	 	"trans": "확인하기",
  	 	 	"eng": "Confirm"
  	 	},
  	 	"requires": {
- 	 	 	"trans": "필요:",
+ 	 	 	"trans": "필요조건:",
  	 	 	"eng": "Requires"
  	 	},
  	 	"receives": {
- 	 	 	"trans": "결과물:",
+ 	 	 	"trans": "보상",
  	 	 	"eng": "Receives"
  	 	},
  	 	"amount": {
- 	 	 	"trans": "개수",
+ 	 	 	"trans": "양",
  	 	 	"eng": "Amount"
  	 	},
  	 	"shield": {
- 	 	 	"trans": "방어막",
+ 	 	 	"trans": "방어",
  	 	 	"eng": "Shield"
  	 	},
  	 	"health": {
@@ -2639,15 +2639,15 @@
  	 	 	"eng": "Health"
  	 	},
  	 	"statusEffect": {
- 	 	 	"trans": "상태 효과",
+ 	 	 	"trans": "효과 상태",
  	 	 	"eng": "Status Effects"
  	 	},
  	 	"notTradable": {
- 	 	 	"trans": "거래되지 않음",
+ 	 	 	"trans": "거래 불가",
  	 	 	"eng": "not tradable"
  	 	},
  	 	"itemUpgradeCapacity": {
- 	 	 	"trans": "Calibration Capacity",
+ 	 	 	"trans": "교정 수용력",
  	 	 	"eng": "Collaboration Capacity"
  	 	},
  	 	"systemStandby": {
@@ -2655,7 +2655,7 @@
  	 	 	"eng": "System standby"
  	 	},
  	 	"send": {
- 	 	 	"trans": "보내다",
+ 	 	 	"trans": "보내기",
  	 	 	"eng": "send"
  	 	},
  	 	"password": {
@@ -2667,7 +2667,7 @@
  	 	 	"eng": "close"
  	 	},
  	 	"back": {
- 	 	 	"trans": "뒤쪽에",
+ 	 	 	"trans": "뒤로 가기",
  	 	 	"eng": "back"
  	 	},
  	 	"dungeons": {
@@ -2675,7 +2675,7 @@
  	 	 	"eng": "dungeons"
  	 	},
  	 	"enemies": {
- 	 	 	"trans": "적들들",
+ 	 	 	"trans": "적",
  	 	 	"eng": "Enemies"
  	 	},
  	 	"moderators": {
@@ -2690,27 +2690,27 @@
  	 	 	 	"eng": "Health"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "최대 체력을 증가시킴",
+ 	 	 	 	"trans": "최대 체력을 증가시킨다",
  	 	 	 	"eng": "Increases maximum health"
  	 	 	}
  	 	},
  	 	"armor": {
  	 	 	"name": {
- 	 	 	 	"trans": "방어력",
+ 	 	 	 	"trans": "방호구",
  	 	 	 	"eng": "Armor"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "적에게서 받은 대미지를 감소",
+ 	 	 	 	"trans": "적에게서 받은 대미지를 감소시킨다",
  	 	 	 	"eng": "Decreases damage taken from enemies"
  	 	 	}
  	 	},
  	 	"healthRegen": {
  	 	 	"name": {
- 	 	 	 	"trans": "회복",
+ 	 	 	 	"trans": "체력 회복",
  	 	 	 	"eng": "Health regen"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "전투 종료 후 회복되는 체력량",
+ 	 	 	 	"trans": "전투 후 회복되는 체력량",
  	 	 	 	"eng": "Amount of health regenerated after the end of combat"
  	 	 	}
  	 	},
@@ -2720,7 +2720,7 @@
  	 	 	 	"eng": "Damage"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "직접 가할 수 있는 대미지",
+ 	 	 	 	"trans": "당신이 직접 가할 수 있는 대미지의 양",
  	 	 	 	"eng": "Directly influences the amount of damage dealt by you"
  	 	 	}
  	 	},
@@ -2730,7 +2730,7 @@
  	 	 	 	"eng": "Crit chance"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "치명타를 가할 ",
+ 	 	 	 	"trans": "치명타를 가할 수 있는 확률",
  	 	 	 	"eng": "Chance of you executing a critical attack"
  	 	 	}
  	 	},
@@ -2740,29 +2740,29 @@
  	 	 	 	"eng": "Crit damage"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "적에게 주는 치명타 대미지에 영향을 줌",
+ 	 	 	 	"trans": "적에게 가하는 치명타 공격에 영향을 준다",
  	 	 	 	"eng": "Influence the critical attack damage you deal to the enemy"
  	 	 	}
  	 	},
  	 	"maxShield": {
  	 	 	"name": {
- 	 	 	 	"trans": "최대 방어막",
+ 	 	 	 	"trans": "최대 방어력",
  	 	 	 	"eng": "MaxShield"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "방어막 용량을 증가시킴",
+ 	 	 	 	"trans": "방어력 용량을 증가시킨다",
  	 	 	 	"eng": "Increases your shield capacity"
  	 	 	}
  	 	},
  	 	"description": {
  	 	 	"name": {
- 	 	 	 	"trans": "인벤토리 용량을 늘림",
+ 	 	 	 	"trans": "인벤토리 용량을 늘린다",
  	 	 	 	"eng": "Increases inventory capacity"
  	 	 	}
  	 	},
  	 	"escape": {
  	 	 	"name": {
- 	 	 	 	"trans": "도망",
+ 	 	 	 	"trans": "도망가기",
  	 	 	 	"eng": "Escape"
  	 	 	},
  	 	 	"description": {
@@ -2776,7 +2776,7 @@
  	 	 	 	"eng": "Stun chance"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "적을 공격할 때 스턴을 걸리게 하는 확률로, \r\n    스턴에 걸리면 공격에 대응할 수 없게 함",
+ 	 	 	 	"trans": "적을 공격할 때 스턴을 걸리게 하는 확률로, \r\n    스턴에 걸리면 당신의 공격에 대응할 수 없게 함",
  	 	 	 	"eng": "Chance of you stunning your enemy when dealing damage, \r\n    causing them not able to respond to your attack"
  	 	 	}
  	 	},
@@ -2796,7 +2796,7 @@
  	 	 	 	"eng": "Bargain"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "NPC나 상점에서 사고파는 값에 영향을 줌.",
+ 	 	 	 	"trans": "NPC나 상점에서 사고파는 가격에 영향을 준다.",
  	 	 	 	"eng": "Influences the price when buying and selling from npc's or stores."
  	 	 	}
  	 	},
@@ -2806,7 +2806,7 @@
  	 	 	 	"eng": "Pocket"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "인벤토리 용량을 늘림",
+ 	 	 	 	"trans": "인벤토리 용량을 늘린다",
  	 	 	 	"eng": "Increases inventory capacity"
  	 	 	}
  	 	},
@@ -2816,7 +2816,7 @@
  	 	 	 	"eng": "Damage multiplier"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "주는 대미지를 늘림",
+ 	 	 	 	"trans": "주는 대미지를 퍼센트 단위로 늘린다",
  	 	 	 	"eng": "Increases damage by percentage"
  	 	 	}
  	 	},
@@ -2826,7 +2826,7 @@
  	 	 	 	"eng": "Defence multiplier"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "받는 대미지를 줄임",
+ 	 	 	 	"trans": "받는 대미지를 퍼센트 단위로 줄인다",
  	 	 	 	"eng": "Decreases damage received by percentage"
  	 	 	}
  	 	},
@@ -2836,17 +2836,17 @@
  	 	 	 	"eng": "Stun evade"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "스턴 받을 확률을 줄임",
+ 	 	 	 	"trans": "스턴 당할 확률을 줄인다",
  	 	 	 	"eng": "Decreases chance of getting stunned"
  	 	 	}
  	 	},
  	 	"shieldMultiplier": {
  	 	 	"name": {
- 	 	 	 	"trans": "방어막 배수",
+ 	 	 	 	"trans": "방어력 배수",
  	 	 	 	"eng": "Shield multiplier"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "방어막의 강도를 늘림",
+ 	 	 	 	"trans": "방어력의 강도를 늘린다",
  	 	 	 	"eng": "Increase strength of shield by percentage"
  	 	 	}
  	 	},
@@ -2856,7 +2856,7 @@
  	 	 	 	"eng": "Healing multiplier"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "체력 회복량을 늘림",
+ 	 	 	 	"trans": "체력 회복량을 늘린다",
  	 	 	 	"eng": "Increases the potency of your heals"
  	 	 	}
  	 	},
@@ -2866,7 +2866,7 @@
  	 	 	 	"eng": "Time reduction"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "AFK 작업 시간을 줄임",
+ 	 	 	 	"trans": "비접속 작업 시간을 줄인다",
  	 	 	 	"eng": "Reduce AFK task required time"
  	 	 	}
  	 	},
@@ -2876,7 +2876,7 @@
  	 	 	 	"eng": "Exp multiplier"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "얻는 경험치 양을 늘림",
+ 	 	 	 	"trans": "얻는 경험치 양을 늘린다",
  	 	 	 	"eng": "Increase EXP you receive"
  	 	 	}
  	 	},
@@ -2886,7 +2886,7 @@
  	 	 	 	"eng": "BTC multiplier"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "받는 비트코인 양을 늘림",
+ 	 	 	 	"trans": "받는 비트코인 양을 늘린다",
  	 	 	 	"eng": "Increase Bitcoins you receive"
  	 	 	}
  	 	},
@@ -2902,11 +2902,11 @@
  	 	},
  	 	"upgradeChance": {
  	 	 	"name": {
- 	 	 	 	"trans": "교정 기회",
+ 	 	 	 	"trans": "교정 확률",
  	 	 	 	"eng": "Calibration Chance"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "항목을 교정 할 때 파괴적인 실패의 가능성을 줄입니다",
+ 	 	 	 	"trans": "항목을 교정 할 때 치명적인 실패의 가능성을 줄인다",
  	 	 	 	"eng": "Reduces chance of destructive failure when calibrating items"
  	 	 	}
  	 	},
@@ -2916,7 +2916,7 @@
  	 	 	 	"eng": "Calibration Safety"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "보정 실패는 항목을 파괴하지 않습니다",
+ 	 	 	 	"trans": "교정 실패는 아이템을 파괴하지 않습니다",
  	 	 	 	"eng": "Calibration fails will not destroy the item"
  	 	 	}
  	 	}
@@ -2952,13 +2952,13 @@
  	 	},
  	 	"unlockLootBox2": {
  	 	 	"name": {
- 	 	 	 	"trans": "희귀 상자 열기",
+ 	 	 	 	"trans": "희귀한 상자 열기",
  	 	 	 	"eng": "Unlock Rare Container"
  	 	 	}
  	 	},
  	 	"unlockLootBox3": {
  	 	 	"name": {
- 	 	 	 	"trans": "전설 상자 열기",
+ 	 	 	 	"trans": "전설의 상자 열기",
  	 	 	 	"eng": "Unlock Legendary Container"
  	 	 	}
  	 	},
@@ -2969,24 +2969,24 @@
  	 	 	}
  	 	},
  	 	"trade": {
- 	 	 	"trans": "거래",
+ 	 	 	"trans": "거래하기",
  	 	 	"eng": "Trade"
  	 	},
  	 	"backpack2": {
  	 	 	"name": {
- 	 	 	 	"trans": "Fanny Pack",
+ 	 	 	 	"trans": "패니 팩",
  	 	 	 	"eng": "Fanny Pack"
  	 	 	}
  	 	},
  	 	"backpack3": {
  	 	 	"name": {
- 	 	 	 	"trans": "탐색기의 배낭",
+ 	 	 	 	"trans": "모험가의 배낭",
  	 	 	 	"eng": "Explorer's Backpack"
  	 	 	}
  	 	},
  	 	"backpack4": {
  	 	 	"name": {
- 	 	 	 	"trans": "직원 사무실 케이스",
+ 	 	 	 	"trans": "직원의 사무용 가방",
  	 	 	 	"eng": "Employee Office Case"
  	 	 	}
  	 	},
@@ -3011,7 +3011,7 @@
  	 	 	"vars": [
  	 	 	 	"total"
  	 	 	],
- 	 	 	"trans": "만약 다 팔리면 ${total} 비트코인을 얻습니다.",
+ 	 	 	"trans": "만약 모든 아이템이 팔릴 경우 ${total} 비트코인을 얻습니다.",
  	 	 	"eng": "If all items are sold, you will earn ${total} BitCoins"
  	 	},
  	 	"sellAmountModalTitle": {
@@ -3029,7 +3029,7 @@
  	 	 	 	"vars": [
  	 	 	 	 	"levelName"
  	 	 	 	],
- 	 	 	 	"trans": "축하합니다, ${levelName}의 레벨이 올랐습니다!",
+ 	 	 	 	"trans": "축하합니다, ${levelName}이 됐습니다!",
  	 	 	 	"eng": "Congratulation, you have leveled up your ${levelName}!"
  	 	 	},
  	 	 	"fromTo": {
@@ -3043,35 +3043,35 @@
  	 	},
  	 	"review": {
  	 	 	"title1": {
- 	 	 	 	"trans": "나는이 게임의 개발자 인 Dexter이며 지금까지의 경험을 알기를 희망합니다.",
+ 	 	 	 	"trans": "저는 이 게임의 개발자인 Dexter이며 지금까지 당신의 감상을 알고 싶습니다.",
  	 	 	 	"eng": "I'm Dexter, the developer of this game, and I hope to know your experience so far."
  	 	 	},
  	 	 	"title2": {
- 	 	 	 	"trans": "얼마나 많은 별을 주겠습니까?",
+ 	 	 	 	"trans": "몇 개의 별을 주시겠습니까?",
  	 	 	 	"eng": "How many stars would you give?"
  	 	 	},
  	 	 	"badReview": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "나는 정말 미안해, 내가 어디에서 개선 할 수 있는지 알려 주시기 바랍니다",
+ 	 	 	 	 	"trans": "정말 죄송하지만, 개선할 점들을 알려주세요.",
  	 	 	 	 	"eng": "I am so sorry, please let me know where I can improve"
  	 	 	 	}
  	 	 	},
  	 	 	"goodReview": {
  	 	 	 	"title1": {
- 	 	 	 	 	"trans": "와우 고마워요! 나는 우리 가게 페이지에 그들을 떠나서 그것을 공식하게 만들어주십시오 :)",
+ 	 	 	 	 	"trans": "와, 정말 고마워요! 영광스럽네요. 앱 리뷰도 남겨주실 수 있을까요? :)",
  	 	 	 	 	"eng": "Wow, thanks so much! I'm honored, please make it official by leaving them on our store page :)"
  	 	 	 	},
  	 	 	 	"title2": {
- 	 	 	 	 	"trans": "당신의 좋은 검토가 나를 매우 도와 드리며 더 많은 플레이어를 우리 지역 사회에 가져올 것입니다!",
+ 	 	 	 	 	"trans": "당신의 좋은 리뷰가 저에게 큰 도움이 되며 더 많은 플레이어를 우리 커뮤니티에 불러들일 수 있어요!",
  	 	 	 	 	"eng": "Your good review is going to help me much and bring more players into our community!"
  	 	 	 	}
  	 	 	},
  	 	 	"dontAskMeAgain": {
- 	 	 	 	"trans": "다시 묻지 마라",
+ 	 	 	 	"trans": "다시 묻지 마세요",
  	 	 	 	"eng": "Don't ask me again"
  	 	 	},
  	 	 	"reviewLater": {
- 	 	 	 	"trans": "나중에 검토하십시오",
+ 	 	 	 	"trans": "나중에 리뷰할게요",
  	 	 	 	"eng": "review later"
  	 	 	}
  	 	}
@@ -3090,14 +3090,14 @@
  	 	 	"vars": [
  	 	 	 	"clanResource"
  	 	 	],
- 	 	 	"trans": "${clanResource} 갱단 자원",
+ 	 	 	"trans": "${clanResource} 갱 자원",
  	 	 	"eng": "${clanResource} gang resource"
  	 	},
  	 	"gangExp": {
  	 	 	"vars": [
  	 	 	 	"clanExp"
  	 	 	],
- 	 	 	"trans": "${clanExp} Gang Exp",
+ 	 	 	"trans": "${clanExp} Gang EXP",
  	 	 	"eng": "${clanExp} gang exp"
  	 	},
  	 	"gangFunding": {
@@ -3108,31 +3108,31 @@
  	 	 	"eng": "${clanMoney} gang funding"
  	 	},
  	 	"unknown": {
- 	 	 	"trans": "알 수없는 항목",
+ 	 	 	"trans": "알 수없는 아이템",
  	 	 	"eng": "Unknown Items"
  	 	},
  	 	"gangOccupationPoint": {
  	 	 	"vars": [
  	 	 	 	"clanOccupationPoint"
  	 	 	],
- 	 	 	"trans": "${clanOccupationPoint} 직업 제어",
+ 	 	 	"trans": "${clanOccupationPoint} 점령 통제",
  	 	 	"eng": "${clanOccupationPoint} Occupation Control"
  	 	},
  	 	"globalQuestPoint": {
  	 	 	"vars": [
  	 	 	 	"globalQuestPoint"
  	 	 	],
- 	 	 	"trans": "${globalQuestPoint} SL 데이터 요새 위반 진행 상황",
+ 	 	 	"trans": "${globalQuestPoint} SL 데이터 요새 침입 진행하기",
  	 	 	"eng": "${globalQuestPoint} SL Data Fortress breach progress"
  	 	}
  	},
  	"cost": {
  	 	"requireGang": {
- 	 	 	"trans": "갱단에 있어야합니다",
+ 	 	 	"trans": "갱에 가입해야합니다",
  	 	 	"eng": "Requires you to be in a gang"
  	 	},
  	 	"requireTopGang": {
- 	 	 	"trans": "팀 갱단에 있어야합니다",
+ 	 	 	"trans": "리더보드 상위 2개의 갱 중 하나에 가입해야합니다",
  	 	 	"eng": "Requires you to be in the Top 2 Gangs on the Occupation Leaderboard"
  	 	}
  	},
@@ -3146,11 +3146,11 @@
  	 	 	"eng": "Chat Exploit [1337]"
  	 	},
  	 	"UwU": {
- 	 	 	"trans": "채팅 익스플로잇 [Uwu]",
+ 	 	 	"trans": "채팅 익스플로잇 [UwU]",
  	 	 	"eng": "Chat Exploit [UwU]"
  	 	},
  	 	"love": {
- 	 	 	"trans": "채팅 익스플로잇 [사랑]",
+ 	 	 	"trans": "채팅 익스플로잇 [LOVE]",
  	 	 	"eng": "Chat Exploit [LOVE]"
  	 	},
  	 	"chatExploitProtect": {
@@ -3162,7 +3162,7 @@
  	 	"ui": {
  	 	 	"autoScrap": {
  	 	 	 	"noItem": {
- 	 	 	 	 	"trans": "자동 스크랩 항목이 없습니다",
+ 	 	 	 	 	"trans": "자동 폐기할 아이템이 없습니다",
  	 	 	 	 	"eng": "No item to auto scrap"
  	 	 	 	}
  	 	 	}
@@ -3170,7 +3170,7 @@
  	},
  	"tutorial": {
  	 	"localCombatButton": {
- 	 	 	"trans": "거리 적을 스캔하려면 여기를 클릭하십시오",
+ 	 	 	"trans": "거리의 적을 스캔하려면 여기를 클릭하십시오",
  	 	 	"eng": "Click here to scan for street enemies"
  	 	}
  	},
@@ -3183,7 +3183,7 @@
  	 	},
  	 	"paypal": {
  	 	 	"paypalBonusTitle": {
- 	 	 	 	"trans": "모든 페이팔 구매는 10 %의 추가 유닛을 보조합니다!",
+ 	 	 	 	"trans": "모든 페이팔 구매는 10 %의 추가 유닛을 제공합니다!",
  	 	 	 	"eng": "All PayPal purchases grants 10% additional Units!"
  	 	 	},
  	 	 	"paypalBonus": {
@@ -3192,26 +3192,26 @@
  	 	 	}
  	 	},
  	 	"purchasing": {
- 	 	 	"trans": "구매",
+ 	 	 	"trans": "구매하기",
  	 	 	"eng": "Purchasing"
  	 	},
  	 	"total": {
- 	 	 	"trans": "총",
+ 	 	 	"trans": "합계",
  	 	 	"eng": "total"
  	 	}
  	},
  	"itemLore": {
  	 	"contribution": {
  	 	 	"title": {
- 	 	 	 	"trans": "플레이어는 콘텐츠를 제공했습니다",
+ 	 	 	 	"trans": "플레이어가 제공한 콘텐츠",
  	 	 	 	"eng": "Player contributed content"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "GitHub 페이지에서 Config 파일을 편집하여 항목의 지식에 기여할 수 있습니다.",
+ 	 	 	 	"trans": "GitHub 페이지에서 Config 파일을 편집하여 아이템의 지식에 기여할 수 있습니다.",
  	 	 	 	"eng": "You can contribute to the lore of items too by editing the config file in our GitHub page."
  	 	 	},
  	 	 	"confirm": {
- 	 	 	 	"trans": "github로 이동하십시오",
+ 	 	 	 	"trans": "github로 이동하기",
  	 	 	 	"eng": "Go to GitHub"
  	 	 	},
  	 	 	"cancel": {
@@ -3222,7 +3222,7 @@
  	},
  	"itemStack": {
  	 	"scrap": {
- 	 	 	"trans": "한조각",
+ 	 	 	"trans": "폐기하기",
  	 	 	"eng": "scrap"
  	 	},
  	 	"destroy": {
