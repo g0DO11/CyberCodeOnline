@@ -66,7 +66,7 @@
  	 	 	 	"eng": "Shangri-La City center"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "[중심부]\r\n        이 대륙에서 가장 바쁜 도시 중 하나인 이곳에서는 전 세계의 여러 사람들을 볼 수 있습니다.",
+ 	 	 	 	"trans": "[중심부]\r\n        이 대륙에서 가장 바쁜 도시 중 하나인 샹그릴라에서는 전 세계의 여러 사람들을 볼 수 있습니다.",
  	 	 	 	"eng": "[Central Hub]\r\n        One of the busiest cities in the continent. Here you can find all sorts of people from around the globe."
  	 	 	},
  	 	 	"toStation": {
@@ -89,7 +89,7 @@
  	 	 	 	 	"eng": "Go to Shangri-La Commercial Area"
  	 	 	 	},
  	 	 	 	"tut": {
- 	 	 	 	 	"trans": "여기에서 AFK 작업으로 기술을 향상시킬 수 있습니다.",
+ 	 	 	 	 	"trans": "여기에서 AFK 작업으로 스킬을 향상시킬 수 있습니다.",
  	 	 	 	 	"eng": "You can complete AFK jobs to increase your skills here"
  	 	 	 	}
  	 	 	},
@@ -105,7 +105,7 @@
  	 	 	},
  	 	 	"toGang": {
  	 	 	 	"name": {
- 	 	 	 	 	"trans": "갱단에 가자",
+ 	 	 	 	 	"trans": "갱단 본부로 이동하기",
  	 	 	 	 	"eng": "Go to gang headquarters"
  	 	 	 	}
  	 	 	}
@@ -116,7 +116,7 @@
  	 	 	 	"eng": "Shangri-La Commercial Area"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "[일자리 중심지]\r\n        수많은 기업과 매장들은 당신의 능력을 시험하기에 완벽한 곳입니다.",
+ 	 	 	 	"trans": "[일자리 중심지]\r\n        샹그릴라 상업지구에는 많은 기업과 매장들이 있습니다. 당신의 기술을 갈고 닦기 좋은 장소죠.",
  	 	 	 	"eng": "[Job Hub]\r\n        Here are many shops and businesses reside. The perfect location to hone and refine your skills."
  	 	 	},
  	 	 	"toMainHub": {
@@ -199,7 +199,7 @@
  	 	"segment": {
  	 	 	"locked": {
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "이전 역의 세 개의 던전에서 각기 다른 열쇠조각 3개를 모으고, \r\n                    [단말기]에서 잠긴 영역을 해제할 키를 제작합니다.",
+ 	 	 	 	 	"trans": "이전 역의 세 개의 던전에서 각기 다른 열쇠조각 3개를 모두 모으고, \r\n                    [단말기]에서 잠긴 영역을 해제할 키를 제작합니다.",
  	 	 	 	 	"eng": "Gather all 3 different Key Fragments from Dungeons in each 3 zones in previous station, \r\n                    then go to [Terminal] at City Center [Hub] to brute-force (Craft) the key required to unlock this area"
  	 	 	 	}
  	 	 	},
@@ -212,7 +212,7 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"segmentStationName"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "여기에서 1 레벨 적과 전투를 계속하세요.",
+ 	 	 	 	 	"trans": "여기에서 레벨 1 적과 전투를 계속하세요.",
  	 	 	 	 	"eng": "Continue here to fight level 1 enemy"
  	 	 	 	},
  	 	 	 	"description": {
@@ -252,11 +252,11 @@
  	 	 	 	"eng": "Gang Headquarters"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "[한 떼] \r\n         귀하와 귀하의 갱 회원들이 다음 조작을 계획하고 실행하기위한 본사",
+ 	 	 	 	"trans": "[한 떼] \r\n         당신과 당신의 갱단이 다음 활동을 계획하고 실행하기 위한 본부",
  	 	 	 	"eng": "[Gang]\r\n        The headquarters for you and your gang members to plan and execute your next operation"
  	 	 	},
  	 	 	"cantEnterError": {
- 	 	 	 	"trans": "이 영역에 들어가기 위해 이득에 가입해야합니다",
+ 	 	 	 	"trans": "이 영역에 들어가기 위해 갱단에 가입해야합니다",
  	 	 	 	"eng": "You need to join a gang to enter this area"
  	 	 	}
  	 	}
@@ -264,7 +264,7 @@
  	"npc": {
  	 	"unitExchange": {
  	 	 	"name": {
- 	 	 	 	"trans": "아라사카 유닛 교환소",
+ 	 	 	 	"trans": "아라사카 환전소",
  	 	 	 	"eng": "Arasaka Unit Exchange"
  	 	 	},
  	 	 	"tut": {
@@ -272,7 +272,7 @@
  	 	 	 	"eng": "You can purchase global buff items here"
  	 	 	},
  	 	 	"canAccessError": {
- 	 	 	 	"trans": "단위 교환에 액세스하려면 최소한 레벨 5가 필요합니다",
+ 	 	 	 	"trans": "환전은 레벨 5부터 가능합니다.",
  	 	 	 	"eng": "You need to be at least level 5 to access unit exchange"
  	 	 	}
  	 	},
@@ -286,7 +286,7 @@
  	 	 	 	"eng": "If you liked the game, please consider donation :)"
  	 	 	},
  	 	 	"canAccessError": {
- 	 	 	 	"trans": "화장품 상인에 액세스하려면 적어도 레벨 5가 필요합니다",
+ 	 	 	 	"trans": "화장품 상인과 접촉은 레벨 5부터 가능합니다.",
  	 	 	 	"eng": "You need to be at least level 5 to access cosmetic merchant"
  	 	 	}
  	 	},
@@ -316,11 +316,11 @@
  	 	 	 	"eng": "To progress to the next area, you need to use get Secret Key Fragments from dungeons, \r\n        and use the Terminal to Brute Force the key for next area"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "당신의 개인 컴퓨터는 좀 오래된 감이 있지만, 조금의 인내심만 있다면 작업을 완수할 수 있습니다",
+ 	 	 	 	"trans": "당신의 개인 컴퓨터는 좀 오래된 감이 있지만, 충분한 인내심만 있다면 작업을 완수할 수 있습니다.",
  	 	 	 	"eng": "Your personal computer, although it's a little outdated, it can get the job done with enough patience"
  	 	 	},
  	 	 	"canAccessError": {
- 	 	 	 	"trans": "터미널에 액세스하려면 적어도 레벨 5가 필요합니다",
+ 	 	 	 	"trans": "단말기 사용은 레벨 5부터 가능합니다.",
  	 	 	 	"eng": "You need to be at least level 5 to access terminal"
  	 	 	}
  	 	},
@@ -336,7 +336,7 @@
  	 	 	 	"eng": "Bank of Arasaka"
  	 	 	},
  	 	 	"canAccessError": {
- 	 	 	 	"trans": "은행에 접속할 수있는 최소 5 레벨이 필요합니다",
+ 	 	 	 	"trans": "은행은 레벨 5부터 이용 가능합니다.",
  	 	 	 	"eng": "You need to be at least level 5 to access bank"
  	 	 	}
  	 	},
@@ -346,31 +346,31 @@
  	 	 	 	"eng": "Calibration Station"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "필요한 도구가있는 워크 벤치를 사용하면 장비로 팅킹을 즐길 수 있습니다.",
+ 	 	 	 	"trans": "필요한 도구가 있는 작업대를 사용하면 장비를 손볼 수 있습니다.",
  	 	 	 	"eng": "A workbench with the necessary tools allows you to tinker with your equipment."
  	 	 	}
  	 	},
  	 	"storageMerchant": {
  	 	 	"name": {
- 	 	 	 	"trans": "리의 무역 게시물",
+ 	 	 	 	"trans": "리의 무역소",
  	 	 	 	"eng": "Lee's Trading Post"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "가족은 그들이 발견 한 것과 함께 거래 할 수있는 무역 가게를 운영합니다",
+ 	 	 	 	"trans": "가족은 그들이 발견한 것을 거래하는 무역 가게를 운영합니다",
  	 	 	 	"eng": "A family run trading shop that lets you trade with what they have found while scavenging"
  	 	 	},
  	 	 	"canAccessError": {
- 	 	 	 	"trans": "Merchant에 액세스하려면 적어도 레벨 10 이상이 필요합니다",
+ 	 	 	 	"trans": "상인과 접촉하는 것은 레벨 10부터 가능합니다.",
  	 	 	 	"eng": "You need to be at least level 10 to access merchant"
  	 	 	}
  	 	},
  	 	"recycleMachine": {
  	 	 	"name": {
- 	 	 	 	"trans": "자동 재활용품",
+ 	 	 	 	"trans": "자동 재활용 기계",
  	 	 	 	"eng": "Automatic Recycler"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "완전 자동화 된 재활용 자, 기본 스크랩 양식으로 항목을 재활용 할 수 있습니다",
+ 	 	 	 	"trans": "완전히 자동화 된 재활용 기계로, 재활용 가능한 아이템을 기본 성분으로 분해할 수 있습니다.",
  	 	 	 	"eng": "Fully automated recycler, capable of recycling items to their basic scrap form"
  	 	 	}
  	 	}
@@ -392,7 +392,7 @@
  	 	 	 	"eng": "Hack a Body Mod Clinic"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "바디모드 클리닉에서 유용한 데이터를 다운로드하여 높은 품질의 의료 로봇과 드론을 제작합니다.",
+ 	 	 	 	"trans": "바디모드 클리닉에서 더 높은 품질의 의료 로봇과 드론을 제작하기 위해 유용한 데이터를 다운로드합니다.",
  	 	 	 	"eng": "Download useful data from a local body mod clinic to craft higher quality medical bots and drones."
  	 	 	}
  	 	},
@@ -402,7 +402,7 @@
  	 	 	 	"eng": "Improve Ammunition"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "탄약을 손보며 더 효과적인 제조 방법 찾습니다.",
+ 	 	 	 	"trans": "더 효과적인 제조 방법을 찾기 위해 탄약을 손봅니다.",
  	 	 	 	"eng": "Tinker with ammunition, to find more effective ways of crafting it."
  	 	 	}
  	 	},
@@ -412,7 +412,7 @@
  	 	 	 	"eng": "Reverse Engineer Scraps"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "인쇄 랭크를 올리기 위해 공학 조각을 역변환하십시오. \r\n        공학 조각을 희생해야 할 것입니다.",
+ 	 	 	 	"trans": "인쇄 랭크를 올리기 위해 공학 조각을 역변환하십시오. \r\n        공학 조각을 소모해야 합니다.",
  	 	 	 	"eng": "Reverse engineer tech scrap to improve your Print Rank. \r\n        You’ll need to sacrifice some of your tech scrap."
  	 	 	}
  	 	},
@@ -422,7 +422,7 @@
  	 	 	 	"eng": "initiate crypto mining"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "암호 화폐를 채굴하면 비트코인을 벌 수 있으나, 해시 프로세서(QPU로 알려져있는 양자 처리 장치)를 사용할 때 과다하게 사용하는 바람에 자주 타버립니다.",
+ 	 	 	 	"trans": "암호 화폐를 채굴하면 비트코인을 벌 수 있으나, 해시 프로세서(QPU라 불리는 양자 처리 장치)를 사용할 때 과다하게 사용하는 바람에 자주 고장 납니다.",
  	 	 	 	"eng": "Engaging in crypto mining will earn you Bitcoins, however due to the intense use of the Hash Processors, the Quantum Processing Unit, otherwise known as the QPU, will often burn out."
  	 	 	}
  	 	},
